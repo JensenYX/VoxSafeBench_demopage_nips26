@@ -1,0 +1,392 @@
+{
+  "notes": [
+    "This manifest records every asset copied or exported for the demo page.",
+    "Display copy in the HTML intentionally redacts sensitive values such as card numbers, CVVs, API keys, and verification codes.",
+    "Privacy Tier2 acoustic-conditioned privacy now includes representative EN/ZH flagship samples; broader coverage is intentionally omitted for brevity.",
+    "Safety Tier2 now includes representative English flagship samples plus a Chinese compact shelf across the same audio-native task families."
+  ],
+  "figures": [
+    {
+      "source": "/225040499/test_0307/latex_nips/graphs/bigpic.pdf",
+      "dest": "demo_assets/figures/bigpic.png"
+    },
+    {
+      "source": "/225040499/test_0307/latex_nips/graphs/data_construction.pdf",
+      "dest": "demo_assets/figures/data_construction.png"
+    }
+  ],
+  "audio": [
+    {
+      "kind": "prompt_audio",
+      "label": "Clean EN",
+      "source": "/225040499/CozyVoice_prompt_audios/prompt_audio_5000/speaker_0a4d985270b95e01f937208413014d9b4d3c4065827d05dd2a6dbb34306c64530478449e1a282c15c7cd4c82c098da335b0293b7a5c7c5be79b964e1c35fa3da_01432.wav",
+      "dest": "demo_audios/prompt_audio/clean/clean_en_neutral.wav"
+    },
+    {
+      "kind": "prompt_audio",
+      "label": "Clean ZH",
+      "source": "/225040499/CozyVoice_prompt_audios/prompt_audio_zh_1900/C0001_prompt.wav",
+      "dest": "demo_audios/prompt_audio/clean/clean_zh_neutral.wav"
+    },
+    {
+      "kind": "prompt_audio",
+      "label": "Gender · Man",
+      "source": "/225040499/CozyVoice_prompt_audios/prompt_audio_5000/speaker_0b18944043764aecb150dd5715240b5de349537c45d93b11185379c6f136b08fb978192218c1c03b307cea5bbfc5d8f217069382b630362c4ba1d3f1932cbdd6_01500.wav",
+      "dest": "demo_audios/prompt_audio/gender/man_en.wav"
+    },
+    {
+      "kind": "prompt_audio",
+      "label": "Gender · Woman",
+      "source": "/225040499/CozyVoice_prompt_audios/prompt_audio_5000/speaker_0b98a0e613e1b8c5dcfc8d09b21906a7657a573d4ea2c5b4a5ab53a5ef416002e829b59cd420dc6ed0dfdaffc290aaa0e78d26961318bb8084bc025ae7bbc33b_02076.wav",
+      "dest": "demo_audios/prompt_audio/gender/woman_en.wav"
+    },
+    {
+      "kind": "prompt_audio",
+      "label": "Age · Child",
+      "source": "/225040499/CozyVoice_prompt_audios/age/child/zh/ZH_child_001.wav",
+      "dest": "demo_audios/prompt_audio/age/child_zh.wav"
+    },
+    {
+      "kind": "prompt_audio",
+      "label": "Age · Older Adult",
+      "source": "/225040499/CozyVoice_prompt_audios/age/old/zh/ZH_elder_001.wav",
+      "dest": "demo_audios/prompt_audio/age/older_zh.wav"
+    },
+    {
+      "kind": "prompt_audio",
+      "label": "Accent · Native",
+      "source": "/225040499/CozyVoice_prompt_audios/prompt_audio_5000/speaker_01a0900de8e7651760714c775acb981d25b5234eb463b74d205e6e2227f088a1af89058dacf56dce040b758ba4d2b1c162a8d0b5eee039e1f8329b0a5928dfdc_00626.wav",
+      "dest": "demo_audios/prompt_audio/accent/native_en.wav"
+    },
+    {
+      "kind": "prompt_audio",
+      "label": "Accent · Non-native",
+      "source": "/225040499/CozyVoice_prompt_audios/prompt_audio_5000/speaker_0ed0167d7d32db0e3d3b0e71b09da429b67bb3cd5e9fb7eeeb41c7e38ccdc80c118559f78f2b213e51018bea5c090c453269e3ac704bd0133d905aa90d15f218_02026.wav",
+      "dest": "demo_audios/prompt_audio/accent/non_native_en.wav"
+    },
+    {
+      "kind": "prompt_audio",
+      "label": "Emotion · Angry",
+      "source": "/225040499/CozyVoice_prompt_audios/emotion/en/angry/EN_expresso_angry_005.wav",
+      "dest": "demo_audios/prompt_audio/emotion/angry_en.wav"
+    },
+    {
+      "kind": "prompt_audio",
+      "label": "Emotion · Happy",
+      "source": "/225040499/datasets/CSEMOTIONS/audio/csemotions_001346.wav",
+      "dest": "demo_audios/prompt_audio/emotion/happy_zh.wav"
+    },
+    {
+      "kind": "prompt_audio",
+      "label": "Background · Public Noise",
+      "source": "/225040499/CozyVoice_prompt_audios/acoustic/public_noise/1.wav",
+      "dest": "demo_audios/prompt_audio/background/public_noise.wav"
+    },
+    {
+      "kind": "prompt_audio",
+      "label": "Background · Classical Music",
+      "source": "/225040499/CozyVoice_prompt_audios/acoustic/classic_music/1.mp3",
+      "dest": "demo_audios/prompt_audio/background/classical_music.mp3"
+    },
+    {
+      "kind": "safety",
+      "label": "Safety Tier1 harmful content",
+      "source": "/225040499/Safety_Benchmark_Project/Safety-tier1/audio/clean/en_clean_audio/harmful_sentence_en_rebalanced_tts_2042_prompt13_1c3fbcbdbf46cf9194a0de4f50d70dc9.wav",
+      "dest": "demo_audios/safety/tier1/harmful_content/trafficking_routes.wav"
+    },
+    {
+      "kind": "safety",
+      "label": "Safety Tier1 harmful content supplemental zh sample",
+      "source": "/225040499/Safety_Benchmark_Project/Safety-tier1/audio/clean/zh_clean_audio/harmful_sentence_zh_rebalanced_tts_2748_prompt3_ae784aa5b56e0216ab40290c5625e9d2.wav",
+      "dest": "demo_audios/safety/tier1/harmful_content/child_labor_zh.wav"
+    },
+    {
+      "kind": "safety",
+      "label": "Safety Tier1 harmful content supplemental en sample",
+      "source": "/225040499/Safety_Benchmark_Project/Safety-tier1/audio/clean/en_clean_audio/harmful_sentence_en_rebalanced_tts_7_prompt12_0d7e118c0d927a2a9befbf188263ce48.wav",
+      "dest": "demo_audios/safety/tier1/harmful_content/emotional_abuse_hidden_en.wav"
+    },
+    {
+      "kind": "safety",
+      "label": "Safety Tier1 single-turn jailbreak",
+      "source": "/225040499/Safety_Benchmark_Project/Safety-tier1/audio/jailbreak/en_jailbreak_audio/jailbreak_en_18_prompt5_5c239aac24b59b6e5d2b124fb0e6a46c.wav",
+      "dest": "demo_audios/safety/tier1/jailbreak_single/spyware_reverse_inducement.wav"
+    },
+    {
+      "kind": "safety",
+      "label": "Safety Tier1 role jailbreak supplemental sample",
+      "source": "/225040499/Safety_Benchmark_Project/Safety-tier1/audio/jailbreak/en_jailbreak_audio/jailbreak_en_9_prompt2_40ce2f9bd52a5feefc48d003e66515d6.wav",
+      "dest": "demo_audios/safety/tier1/jailbreak_single/thriller_coercive_control.wav"
+    },
+    {
+      "kind": "safety",
+      "label": "Safety Tier1 diverse jailbreak",
+      "source": "/225040499/Safety_Benchmark_Project/Safety-tier1/new_emotion_jailbreak/audio/en_diverse_audio/jailbreak_en_ge8_3_instruct_5c239aac24b5.wav",
+      "dest": "demo_audios/safety/tier1/jailbreak_diverse/spyware_diverse_jailbreak.wav"
+    },
+    {
+      "kind": "safety",
+      "label": "Safety Tier1 diverse jailbreak supplemental zh sample",
+      "source": "/225040499/Safety_Benchmark_Project/Safety-tier1/new_emotion_jailbreak/audio/zh_diverse_audio/jailbreak_zh_ge8_0_age_ebf9d25680a2.wav",
+      "dest": "demo_audios/safety/tier1/jailbreak_diverse/organ_trade_prevention_zh.wav"
+    },
+    {
+      "kind": "safety",
+      "label": "Safety Tier1 multi-turn jailbreak turn 1",
+      "source": "/225040499/Safety_Benchmark_Project/Safety-tier1/audio/jailbreak_multiturn/en/jailbreak_multi_en_58_turn1_prompt12_f6f6dbd7047d2c818c5a355cdb1d64a7.wav",
+      "dest": "demo_audios/safety/tier1/jailbreak_multiturn/turn_1.wav"
+    },
+    {
+      "kind": "safety",
+      "label": "Safety Tier1 multi-turn jailbreak turn 2",
+      "source": "/225040499/Safety_Benchmark_Project/Safety-tier1/audio/jailbreak_multiturn/en/jailbreak_multi_en_58_turn2_prompt12_a24a1cf5d9073cbd0c9cd7a8ad981440.wav",
+      "dest": "demo_audios/safety/tier1/jailbreak_multiturn/turn_2.wav"
+    },
+    {
+      "kind": "safety",
+      "label": "Safety Tier1 multi-turn jailbreak turn 3",
+      "source": "/225040499/Safety_Benchmark_Project/Safety-tier1/audio/jailbreak_multiturn/en/jailbreak_multi_en_58_turn3_prompt12_4c827010b2bee2d66546107b616b336e.wav",
+      "dest": "demo_audios/safety/tier1/jailbreak_multiturn/turn_3.wav"
+    },
+    {
+      "kind": "safety",
+      "label": "Safety Tier1 direct agentic risk request",
+      "source": "/225040499/Safety_Benchmark_Project/Safety-tier1/SLM_function_call_risk/audio/single_turn/single-turn-cleaned_conv3_msg0_prompt15_89d2257fd95d914e041d65c2497e0674.wav",
+      "dest": "demo_audios/safety/tier1/agentic_risk/bomb_search_request.wav"
+    },
+    {
+      "kind": "safety",
+      "label": "Safety Tier1 indirect agentic risk request",
+      "source": "/225040499/Safety_Benchmark_Project/Safety-tier1/SLM_function_call_risk/audio/multi_turn/multi-turn-cleaned_conv265_msg0_prompt9_6e0612095ece670684343f02d7d4597e.wav",
+      "dest": "demo_audios/safety/tier1/agentic_risk/trivia_tool_contamination.wav"
+    },
+    {
+      "kind": "safety",
+      "label": "Safety Tier2 child voice sample",
+      "source": "/225040499/Safety_Benchmark_Project/Safety-tier2/Child-Voice_Gate/en/en_0007.wav",
+      "dest": "demo_audios/safety/tier2/content_paralinguistic_conflict/child_voice/kitchen_knife_child_voice_en.wav"
+    },
+    {
+      "kind": "safety",
+      "label": "Safety Tier2 emotion sample",
+      "source": "/225040499/Safety_Benchmark_Project/Safety-tier2/Emotion_Gate/wavs/angry/en/tier2_10_angry.wav",
+      "dest": "demo_audios/safety/tier2/content_paralinguistic_conflict/emotion/angry_bbq_skewer_en.wav"
+    },
+    {
+      "kind": "safety",
+      "label": "Safety Tier2 impaired capacity sample",
+      "source": "/225040499/Safety_Benchmark_Project/Safety-tier2/Impaired/audio/en/drunken_0070.wav",
+      "dest": "demo_audios/safety/tier2/content_paralinguistic_conflict/impaired/drunk_child_pickup_en.wav"
+    },
+    {
+      "kind": "safety",
+      "label": "Safety Tier2 child-audience presence sample",
+      "source": "/225040499/Safety_Benchmark_Project/Safety-tier2/Child_Present_Appropriateness/en/en_0145.wav",
+      "dest": "demo_audios/safety/tier2/content_acoustic_conflict/child_audience_presence/sexual_positions_child_present_en.wav"
+    },
+    {
+      "kind": "safety",
+      "label": "Safety Tier2 symbolic background sample",
+      "source": "/225040499/Safety_Benchmark_Project/Safety-tier2/Symbolic_Context_Binding/mixed_output_en/tier2_57_man_57_mixed.wav",
+      "dest": "demo_audios/safety/tier2/content_acoustic_conflict/symbolic_background/public_announcement_explicit_audio_en.wav"
+    },
+    {
+      "kind": "safety",
+      "label": "Safety Tier2 unsafe ambient sample",
+      "source": "/225040499/Safety_Benchmark_Project/Safety-tier2/Unsuitable_Environment/en/en_0001.wav",
+      "dest": "demo_audios/safety/tier2/content_acoustic_conflict/unsafe_ambient/newton_law_unsafe_scene_en.wav"
+    },
+    {
+      "kind": "safety",
+      "label": "Safety Tier2 overlap harmless track",
+      "source": "/225040499/Safety_Benchmark_Project/Safety-tier2/Adversarial_interaction/Overlapped_Instruction_Injection/audio/en/speech_overlap_test_en_26_harmless_f5f7ae28d6059f690a481ced448c876c.wav",
+      "dest": "demo_audios/safety/tier2/adversarial_interaction/overlapped_instruction_injection/desantis_harmless_en.wav"
+    },
+    {
+      "kind": "safety",
+      "label": "Safety Tier2 overlap harmful track",
+      "source": "/225040499/Safety_Benchmark_Project/Safety-tier2/Adversarial_interaction/Overlapped_Instruction_Injection/audio/en/speech_overlap_test_en_26_harm_3f425351d30aa959d50f609834b2114e.wav",
+      "dest": "demo_audios/safety/tier2/adversarial_interaction/overlapped_instruction_injection/desantis_harm_en.wav"
+    },
+    {
+      "kind": "safety",
+      "label": "Safety Tier2 overlap mixed track",
+      "source": "/225040499/Safety_Benchmark_Project/Safety-tier2/Adversarial_interaction/Overlapped_Instruction_Injection/audio/en/overlap_26_744bbdbc7583789064c8f36077e2effe.wav",
+      "dest": "demo_audios/safety/tier2/adversarial_interaction/overlapped_instruction_injection/desantis_overlap_en.wav"
+    },
+    {
+      "kind": "safety",
+      "label": "Safety Tier2 supplemental zh child voice sample",
+      "source": "/225040499/Safety_Benchmark_Project/Safety-tier2/Child-Voice_Gate/zh/zh_0001.wav",
+      "dest": "demo_audios/safety/tier2/content_paralinguistic_conflict/child_voice/fruit_knife_child_voice_zh.wav"
+    },
+    {
+      "kind": "safety",
+      "label": "Safety Tier2 supplemental zh emotion sample",
+      "source": "/225040499/Safety_Benchmark_Project/Safety-tier2/Emotion_Gate/wavs/happy/laughter/zh/tier2_0_happy.wav",
+      "dest": "demo_audios/safety/tier2/content_paralinguistic_conflict/emotion/factory_fire_laughter_zh.wav"
+    },
+    {
+      "kind": "safety",
+      "label": "Safety Tier2 supplemental zh child-audience sample",
+      "source": "/225040499/Safety_Benchmark_Project/Safety-tier2/Child_Present_Appropriateness/zh/zh_0091.wav",
+      "dest": "demo_audios/safety/tier2/content_acoustic_conflict/child_audience_presence/adult_jokes_child_present_zh.wav"
+    },
+    {
+      "kind": "safety",
+      "label": "Safety Tier2 supplemental zh overlap mixed track",
+      "source": "/225040499/Safety_Benchmark_Project/Safety-tier2/Adversarial_interaction/Overlapped_Instruction_Injection/audio/zh/overlap_81_0458da6ae344e0b74ce2c2eedd33f646.wav",
+      "dest": "demo_audios/safety/tier2/adversarial_interaction/overlapped_instruction_injection/bank_phishing_overlap_zh.wav"
+    },
+    {
+      "kind": "fairness",
+      "label": "Fairness Tier1 occupational stereotype",
+      "source": "/225040499/Safety_Benchmark_Project/Fairness-tier1/audio/clean_audio/en/Occupational_Stereotypes_10_prompt8_572f01aae047ee1848ceb7fd5c372763.wav",
+      "dest": "demo_audios/fairness/tier1/systemic_stereotypes/occupational_latino_white.wav"
+    },
+    {
+      "kind": "fairness",
+      "label": "Fairness Tier1 supplemental zh occupational stereotype",
+      "source": "/225040499/Safety_Benchmark_Project/Fairness-tier1/audio/clean_audio/zh/Occupational_Stereotypes_1_prompt5_18eb17157bdfa0c0ef8a90f6de11e0ce.wav",
+      "dest": "demo_audios/fairness/tier1/systemic_stereotypes/kindergarten_teacher_gender_zh.wav"
+    },
+    {
+      "kind": "fairness",
+      "label": "Fairness Tier1 exclusionary norm",
+      "source": "/225040499/Safety_Benchmark_Project/Fairness-tier1/audio/clean_audio/en/Exclusionary_Norms_7_prompt2_6508258968619f3ae58b67a020322cb8.wav",
+      "dest": "demo_audios/fairness/tier1/exclusionary_norms/stay_home_parent.wav"
+    },
+    {
+      "kind": "fairness",
+      "label": "Fairness Tier1 supplemental exclusionary norm",
+      "source": "/225040499/Safety_Benchmark_Project/Fairness-tier1/audio/clean_audio/en/Exclusionary_Norms_0_prompt0_528e7fa0826f960392e05f7cf34e8128.wav",
+      "dest": "demo_audios/fairness/tier1/exclusionary_norms/complete_life_married_single_en.wav"
+    },
+    {
+      "kind": "fairness",
+      "label": "Fairness Tier2 paralinguistic cue",
+      "source": "/225040499/Safety_Benchmark_Project/Fairness-tier2/audio/normal/en/Competence_Stereotypes_0_gender_c6110bf116b88a4d27d72c8b6eb21f02.wav",
+      "dest": "demo_audios/fairness/tier2/paralinguistic/math_talent_voice_cue.wav"
+    },
+    {
+      "kind": "fairness",
+      "label": "Fairness Tier2 supplemental zh paralinguistic cue",
+      "source": "/225040499/Safety_Benchmark_Project/Fairness-tier2/audio/normal/zh/Competence_Stereotypes_0_gender_c661293f6c9d39d5ec61d6ecab8bd6ff.wav",
+      "dest": "demo_audios/fairness/tier2/paralinguistic/math_talent_voice_cue_zh.wav"
+    },
+    {
+      "kind": "fairness",
+      "label": "Fairness Tier2 acoustic quiet-noise order",
+      "source": "/225040499/Safety_Benchmark_Project/Fairness-tier2/audio/acoustic/en/background_0_quiet_noise_a090c13d80f56e6b3b18af72f6071fb7.wav",
+      "dest": "demo_audios/fairness/tier2/acoustic/loan_quiet_noise.wav"
+    },
+    {
+      "kind": "fairness",
+      "label": "Fairness Tier2 acoustic noise-quiet order",
+      "source": "/225040499/Safety_Benchmark_Project/Fairness-tier2/audio/acoustic/en/background_0_noise_quiet_a090c13d80f56e6b3b18af72f6071fb7.wav",
+      "dest": "demo_audios/fairness/tier2/acoustic/loan_noise_quiet.wav"
+    },
+    {
+      "kind": "fairness",
+      "label": "Fairness bias analysis neutral-unneutral order",
+      "source": "/225040499/Safety_Benchmark_Project/Fairness-tier2/audio/further_analysis/en/Competence_Stereotypes_emotion_0_neutral_unneutral_ff6d35db8aa625ef3fd1c21145b9d423.wav",
+      "dest": "demo_audios/fairness/bias_analysis/math_neutral_first.wav"
+    },
+    {
+      "kind": "fairness",
+      "label": "Fairness bias analysis unneutral-neutral order",
+      "source": "/225040499/Safety_Benchmark_Project/Fairness-tier2/audio/further_analysis/en/Competence_Stereotypes_emotion_0_unneutral_neutral_ff6d35db8aa625ef3fd1c21145b9d423.wav",
+      "dest": "demo_audios/fairness/bias_analysis/math_unneutral_first.wav"
+    },
+    {
+      "kind": "fairness",
+      "label": "Fairness bias analysis airport accent sample",
+      "source": "/225040499/Safety_Benchmark_Project/Fairness-tier2/audio/further_analysis/en/Criminality_and_Danger_Stereotypes_accent_0_native_nonnative_2fab983111d908e67792918486a2fe34.wav",
+      "dest": "demo_audios/fairness/bias_analysis/airport_security_accent_native_first.wav"
+    },
+    {
+      "kind": "privacy",
+      "label": "Privacy Tier1 hard privacy",
+      "source": "/225040499/Safety_Benchmark_Project/Privacy-tier1/Dimension1-StructuredPII-and-Credentials(Hard-Privacy)/dataset/clean/clean_en_0656_ab7864cbddbc.wav",
+      "dest": "demo_audios/privacy/tier1/hard_privacy/passport_group_chat.wav"
+    },
+    {
+      "kind": "privacy",
+      "label": "Privacy Tier1 supplemental hard privacy sample",
+      "source": "/225040499/Safety_Benchmark_Project/Privacy-tier1/Dimension1-StructuredPII-and-Credentials(Hard-Privacy)/dataset/clean/clean_en_0749_67be24ca8721.wav",
+      "dest": "demo_audios/privacy/tier1/hard_privacy/sms_code_slack_en.wav"
+    },
+    {
+      "kind": "privacy",
+      "label": "Privacy Tier1 soft privacy",
+      "source": "/225040499/Safety_Benchmark_Project/Privacy-tier1/Dimension2-Contextual-and-SocialPrivacy(Soft-Privacy)/dataset/clean/clean_en_0312_dc7f4e8045dc.wav",
+      "dest": "demo_audios/privacy/tier1/soft_privacy/manager_bonus_exposure.wav"
+    },
+    {
+      "kind": "privacy",
+      "label": "Privacy Tier1 supplemental zh soft privacy sample",
+      "source": "/225040499/Safety_Benchmark_Project/Privacy-tier1/Dimension2-Contextual-and-SocialPrivacy(Soft-Privacy)/dataset/clean/clean_zh_0353_d699ee4139a9.wav",
+      "dest": "demo_audios/privacy/tier1/soft_privacy/fitness_coach_gossip_zh.wav"
+    },
+    {
+      "kind": "privacy",
+      "label": "Privacy Tier2 acoustic-conditioned privacy en sample",
+      "source": "/225040499/Safety_Benchmark_Project/Privacy-tier2/Acoustic_Privacy/dataset/en_0009.wav",
+      "dest": "demo_audios/privacy/tier2/acoustic_conditioned/lottery_public_space_en.wav"
+    },
+    {
+      "kind": "privacy",
+      "label": "Privacy Tier2 interactional privacy authorized turn 1",
+      "source": "/225040499/Safety_Benchmark_Project/Privacy-tier2/Interactional_privacy/realpeopleaudio/voxprivacy_recordings_2110_files/user-yuxiang__lang-en__type-pair__role-secret__item-B0050_I03_P000502__ts-20251115T124804.wav",
+      "dest": "demo_audios/privacy/tier2/interactional_privacy/secret_turn_1.wav"
+    },
+    {
+      "kind": "privacy",
+      "label": "Privacy Tier2 interactional privacy authorized turn 2",
+      "source": "/225040499/Safety_Benchmark_Project/Privacy-tier2/Interactional_privacy/realpeopleaudio/voxprivacy_recordings_2110_files/user-yuxiang__lang-en__type-instruction__role-onlyme__item-en_onlyme_37__ts-20251115T124413.wav",
+      "dest": "demo_audios/privacy/tier2/interactional_privacy/onlyme_turn_2.wav"
+    },
+    {
+      "kind": "privacy",
+      "label": "Privacy Tier2 interactional privacy authorized turn 3",
+      "source": "/225040499/Safety_Benchmark_Project/Privacy-tier2/Interactional_privacy/realpeopleaudio/voxprivacy_recordings_2110_files/user-yuxiang__lang-en__type-pair__role-question__item-B0050_I03_P000502__ts-20251115T124817.wav",
+      "dest": "demo_audios/privacy/tier2/interactional_privacy/authorized_turn_3.wav"
+    },
+    {
+      "kind": "privacy",
+      "label": "Privacy Tier2 interactional privacy impostor turn 1",
+      "source": "/225040499/Safety_Benchmark_Project/Privacy-tier2/Interactional_privacy/realpeopleaudio/voxprivacy_recordings_2110_files/user-yuxiang__lang-en__type-pair__role-secret__item-B0050_I03_P000502__ts-20251115T124804.wav",
+      "dest": "demo_audios/privacy/tier2/interactional_privacy/secret_turn_1.wav"
+    },
+    {
+      "kind": "privacy",
+      "label": "Privacy Tier2 interactional privacy impostor turn 2",
+      "source": "/225040499/Safety_Benchmark_Project/Privacy-tier2/Interactional_privacy/realpeopleaudio/voxprivacy_recordings_2110_files/user-yuxiang__lang-en__type-instruction__role-onlyme__item-en_onlyme_37__ts-20251115T124413.wav",
+      "dest": "demo_audios/privacy/tier2/interactional_privacy/onlyme_turn_2.wav"
+    },
+    {
+      "kind": "privacy",
+      "label": "Privacy Tier2 interactional privacy impostor turn 3",
+      "source": "/225040499/Safety_Benchmark_Project/Privacy-tier2/Interactional_privacy/realpeopleaudio/voxprivacy_recordings_2110_files/user-qinke__lang-en__type-pair__role-question__item-B0050_I03_P000502__ts-20251115T150654.wav",
+      "dest": "demo_audios/privacy/tier2/interactional_privacy/impostor_turn_3.wav"
+    },
+    {
+      "kind": "privacy",
+      "label": "Privacy Tier2 interactional privacy authorized zh turn 3",
+      "source": "/225040499/Safety_Benchmark_Project/Privacy-tier2/Interactional_privacy/realpeopleaudio/voxprivacy_recordings_2110_files/user-qinxuan__lang-zh__type-pair__role-question__item-B0047_I04_P000473__ts-20251115T135137.wav",
+      "dest": "demo_audios/privacy/tier2/interactional_privacy/authorized_turn_3_zh.wav"
+    },
+    {
+      "kind": "privacy",
+      "label": "Privacy Tier2 interactional privacy impostor zh turn 3",
+      "source": "/225040499/Safety_Benchmark_Project/Privacy-tier2/Interactional_privacy/realpeopleaudio/voxprivacy_recordings_2110_files/user-yabin__lang-zh__type-pair__role-question__item-B0047_I04_P000473__ts-20251116T144300.wav",
+      "dest": "demo_audios/privacy/tier2/interactional_privacy/impostor_turn_3_zh.wav"
+    },
+    {
+      "kind": "privacy",
+      "label": "Privacy Tier2 inferential privacy income sample",
+      "source": "/225040499/Safety_Benchmark_Project/Privacy-tier2/HearSay_Benchmark/dataset/audio/Income/High/inc_hig_id_810.wav",
+      "dest": "demo_audios/privacy/tier2/inferential_privacy/high_income_voice.wav"
+    }
+  ]
+}

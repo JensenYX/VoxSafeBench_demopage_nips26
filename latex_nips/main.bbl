@@ -1,0 +1,460 @@
+\begin{thebibliography}{90}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Fang et~al.(2025)Fang, Li, Mulchandani, and Kim]{fang2025trustworthy}
+Xingli Fang, Jianwei Li, Varun Mulchandani, and Jung-Eun Kim.
+\newblock Trustworthy ai: Safety, bias, and privacy--a survey.
+\newblock \emph{arXiv preprint arXiv:2502.10450}, 2025.
+
+\bibitem[Liu et~al.(2023{\natexlab{a}})Liu, Yao, Ton, Zhang, Guo, Cheng, Klochkov, Taufiq, and Li]{liu2023trustworthy}
+Yang Liu, Yuanshun Yao, Jean-Francois Ton, Xiaoying Zhang, Ruocheng Guo, Hao Cheng, Yegor Klochkov, Muhammad~Faaiz Taufiq, and Hang Li.
+\newblock Trustworthy llms: a survey and guideline for evaluating large language models' alignment.
+\newblock \emph{arXiv preprint arXiv:2308.05374}, 2023{\natexlab{a}}.
+
+\bibitem[Liu et~al.(2023{\natexlab{b}})Liu, Yang, Jia, Zhang, Zhou, Dai, Yang, and Vosoughi]{liu2023training}
+Ruibo Liu, Ruixin Yang, Chenyan Jia, Ge~Zhang, Denny Zhou, Andrew~M Dai, Diyi Yang, and Soroush Vosoughi.
+\newblock Training socially aligned language models on simulated social interactions.
+\newblock \emph{arXiv preprint arXiv:2305.16960}, 2023{\natexlab{b}}.
+
+\bibitem[Zhang et~al.(2024{\natexlab{a}})Zhang, Huang, Sun, Liu, Zhao, Fang, Wang, Chen, Yang, Wei, et~al.]{zhang2024multitrust}
+Yichi Zhang, Yao Huang, Yitong Sun, Chang Liu, Zhe Zhao, Zhengwei Fang, Yifan Wang, Huanran Chen, Xiao Yang, Xingxing Wei, et~al.
+\newblock Multitrust: A comprehensive benchmark towards trustworthy multimodal large language models.
+\newblock \emph{Advances in Neural Information Processing Systems}, 37:\penalty0 49279--49383, 2024{\natexlab{a}}.
+
+\bibitem[Ying et~al.(2026)Ying, Liu, Liang, Huang, Guo, Zhou, Liu, and Tao]{ying2026safebench}
+Zonghao Ying, Aishan Liu, Siyuan Liang, Lei Huang, Jinyang Guo, Wenbo Zhou, Xianglong Liu, and Dacheng Tao.
+\newblock Safebench: A safety evaluation framework for multimodal large language models.
+\newblock \emph{International Journal of Computer Vision}, 134\penalty0 (1):\penalty0 18, 2026.
+
+\bibitem[Lu et~al.(2025)Lu, Peng, Zhuang, Chen, and Zeng]{lu2025sea}
+Weikai Lu, Hao Peng, Huiping Zhuang, Cen Chen, and Ziqian Zeng.
+\newblock Sea: Low-resource safety alignment for multimodal large language models via synthetic embeddings.
+\newblock In \emph{Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pages 24894--24913, 2025.
+
+\bibitem[Huang et~al.(2025{\natexlab{a}})Huang, Gao, Wu, Wang, Wang, Zhou, Wang, Ye, Shi, Zhang, et~al.]{huang2025trustworthiness}
+Yue Huang, Chujie Gao, Siyuan Wu, Haoran Wang, Xiangqi Wang, Yujun Zhou, Yanbo Wang, Jiayi Ye, Jiawen Shi, Qihui Zhang, et~al.
+\newblock On the trustworthiness of generative foundation models: Guideline, assessment, and perspective.
+\newblock \emph{arXiv preprint arXiv:2502.14296}, 2025{\natexlab{a}}.
+
+\bibitem[Li et~al.(2025)Li, Shen, Liu, Han, Zheng, Zou, Wang, Zhang, Du, Luo, et~al.]{li2025audiotrust}
+Kai Li, Can Shen, Yile Liu, Jirui Han, Kelong Zheng, Xuechao Zou, Zhe Wang, Shun Zhang, Xingjian Du, Hanjun Luo, et~al.
+\newblock Audiotrust: Benchmarking the multifaceted trustworthiness of audio large language models.
+\newblock \emph{arXiv preprint arXiv:2505.16211}, 2025.
+
+\bibitem[Lee et~al.(2025)Lee, Tu, Wong, Wang, Yang, Mai, Zhou, Xie, and Liang]{lee2025ahelm}
+Tony Lee, Haoqin Tu, Chi~Heem Wong, Zijun Wang, Siwei Yang, Yifan Mai, Yuyin Zhou, Cihang Xie, and Percy Liang.
+\newblock Ahelm: A holistic evaluation of audio-language models.
+\newblock \emph{arXiv preprint arXiv:2508.21376}, 2025.
+
+\bibitem[Sun et~al.(2023)Sun, Zhang, Deng, Cheng, and Huang]{sun2023safety}
+Hao Sun, Zhexin Zhang, Jiawen Deng, Jiale Cheng, and Minlie Huang.
+\newblock Safety assessment of chinese large language models.
+\newblock \emph{arXiv preprint arXiv:2304.10436}, 2023.
+
+\bibitem[Gong et~al.(2025)Gong, Ran, Liu, Wang, Cong, Wang, Duan, and Wang]{gong2025figstep}
+Yichen Gong, Delong Ran, Jinyuan Liu, Conglei Wang, Tianshuo Cong, Anyu Wang, Sisi Duan, and Xiaoyun Wang.
+\newblock Figstep: Jailbreaking large vision-language models via typographic visual prompts.
+\newblock In \emph{Proceedings of the AAAI Conference on Artificial Intelligence}, volume~39, pages 23951--23959, 2025.
+
+\bibitem[Zhang et~al.(2024{\natexlab{b}})Zhang, Lei, Wu, Sun, Huang, Long, Liu, Lei, Tang, and Huang]{zhang2024safetybenchevaluatingsafetylarge}
+Zhexin Zhang, Leqi Lei, Lindong Wu, Rui Sun, Yongkang Huang, Chong Long, Xiao Liu, Xuanyu Lei, Jie Tang, and Minlie Huang.
+\newblock Safetybench: Evaluating the safety of large language models, 2024{\natexlab{b}}.
+\newblock URL \url{https://arxiv.org/abs/2309.07045}.
+
+\bibitem[Xie et~al.(2025{\natexlab{a}})Xie, Qi, Zeng, Huang, Sehwag, Huang, He, Wei, Li, Sheng, Jia, Li, Li, Chen, Henderson, and Mittal]{xie2025sorrybenchsystematicallyevaluatinglarge}
+Tinghao Xie, Xiangyu Qi, Yi~Zeng, Yangsibo Huang, Udari~Madhushani Sehwag, Kaixuan Huang, Luxi He, Boyi Wei, Dacheng Li, Ying Sheng, Ruoxi Jia, Bo~Li, Kai Li, Danqi Chen, Peter Henderson, and Prateek Mittal.
+\newblock Sorry-bench: Systematically evaluating large language model safety refusal, 2025{\natexlab{a}}.
+\newblock URL \url{https://arxiv.org/abs/2406.14598}.
+
+\bibitem[Hui et~al.(2025)Hui, Dong, Shareghi, and Collier]{hui2025tridentbenchmarkingllmsafety}
+Zheng Hui, Yijiang~River Dong, Ehsan Shareghi, and Nigel Collier.
+\newblock Trident: Benchmarking llm safety in finance, medicine, and law, 2025.
+\newblock URL \url{https://arxiv.org/abs/2507.21134}.
+
+\bibitem[Mou et~al.(2024)Mou, Zhang, and Ye]{mou2024sgbenchevaluatingllmsafety}
+Yutao Mou, Shikun Zhang, and Wei Ye.
+\newblock Sg-bench: Evaluating llm safety generalization across diverse tasks and prompt types, 2024.
+\newblock URL \url{https://arxiv.org/abs/2410.21965}.
+
+\bibitem[Wang et~al.(2024{\natexlab{a}})Wang, Li, Han, Nakov, and Baldwin]{wang-etal-2024-answer}
+Yuxia Wang, Haonan Li, Xudong Han, Preslav Nakov, and Timothy Baldwin.
+\newblock Do-not-answer: Evaluating safeguards in {LLM}s.
+\newblock In Yvette Graham and Matthew Purver, editors, \emph{Findings of the Association for Computational Linguistics: EACL 2024}, pages 896--911, St. Julian{'}s, Malta, March 2024{\natexlab{a}}. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2024.findings-eacl.61}.
+\newblock URL \url{https://aclanthology.org/2024.findings-eacl.61/}.
+
+\bibitem[Markov et~al.(2023)Markov, Zhang, Agarwal, Eloundou, Lee, Adler, Jiang, and Weng]{markov2023holisticapproachundesiredcontent}
+Todor Markov, Chong Zhang, Sandhini Agarwal, Tyna Eloundou, Teddy Lee, Steven Adler, Angela Jiang, and Lilian Weng.
+\newblock A holistic approach to undesired content detection in the real world, 2023.
+\newblock URL \url{https://arxiv.org/abs/2208.03274}.
+
+\bibitem[Chang et~al.()Chang, Lau, Liu, and Tang]{changbalancing}
+Wei Chang, Yeu-Tong Lau, Genglin Liu, and Hubert Tang.
+\newblock Balancing safety and helpfulness: Policy frameworks for addressing llm jailbreaking and over-refusal.
+
+\bibitem[Wu et~al.(2025{\natexlab{a}})Wu, Huang, Lin, Chen, Huang, Wang, Wang, et~al.]{wu2025analogy}
+Mengjie Wu, Yihao Huang, Zhenjun Lin, Kangjie Chen, Yuhan Huang, Run Wang, Lina Wang, et~al.
+\newblock Analogy-based multi-turn jailbreak against large language models.
+\newblock In \emph{The Thirty-ninth Annual Conference on Neural Information Processing Systems}, 2025{\natexlab{a}}.
+
+\bibitem[Gulyamov et~al.(2026)Gulyamov, Gulyamov, Rodionov, Khursanov, Mekhmonov, Babaev, and Rakhimjonov]{202511.0088}
+Saidakhror Gulyamov, Said Gulyamov, Andrey Rodionov, Rustam Khursanov, Kambariddin Mekhmonov, Djakhongir Babaev, and Akmaljon Rakhimjonov.
+\newblock Prompt injection attacks in large language models and ai agent systems: A comprehensive review of vulnerabilities, attack vectors, and defense mechanisms.
+\newblock \emph{Information}, 17\penalty0 (1):\penalty0 54, 2026.
+
+\bibitem[Yang et~al.(2025{\natexlab{a}})Yang, Lee, Dick, Timm, Xie, and Cruz]{yang2025multi}
+Xiaoxue Yang, Jaeha Lee, Anna-Katharina Dick, Jasper Timm, Fei Xie, and Diogo Cruz.
+\newblock Multi-turn jailbreaks are simpler than they seem.
+\newblock \emph{arXiv preprint arXiv:2508.07646}, 2025{\natexlab{a}}.
+
+\bibitem[Andriushchenko et~al.(2024)Andriushchenko, Croce, and Flammarion]{andriushchenko2025jailbreakingleadingsafetyalignedllms}
+Maksym Andriushchenko, Francesco Croce, and Nicolas Flammarion.
+\newblock Jailbreaking leading safety-aligned llms with simple adaptive attacks.
+\newblock \emph{arXiv preprint arXiv:2404.02151}, 2024.
+
+\bibitem[Zou et~al.(2023)Zou, Wang, Carlini, Nasr, Kolter, and Fredrikson]{zou2023universaltransferableadversarialattacks}
+Andy Zou, Zifan Wang, Nicholas Carlini, Milad Nasr, J~Zico Kolter, and Matt Fredrikson.
+\newblock Universal and transferable adversarial attacks on aligned language models.
+\newblock \emph{arXiv preprint arXiv:2307.15043}, 2023.
+
+\bibitem[Yu et~al.(2026)Yu, Jin, Yu, Zhuang, and Wang]{yu2026now}
+Ye~Yu, Haibo Jin, Yaoning Yu, Jun Zhuang, and Haohan Wang.
+\newblock Now you hear me: Audio narrative attacks against large audio-language models.
+\newblock \emph{arXiv preprint arXiv:2601.23255}, 2026.
+
+\bibitem[Peng et~al.(2025)Peng, Liu, Sun, Li, Luo, Zheng, Dong, He, Wang, Xue, et~al.]{peng2025jalmbench}
+Zifan Peng, Yule Liu, Zhen Sun, Mingchen Li, Zeren Luo, Jingyi Zheng, Wenhan Dong, Xinlei He, Xuechao Wang, Yingjie Xue, et~al.
+\newblock Jalmbench: Benchmarking jailbreak vulnerabilities in audio language models.
+\newblock \emph{arXiv preprint arXiv:2505.17568}, 2025.
+
+\bibitem[Russinovich et~al.(2025)Russinovich, Salem, and Eldan]{russinovich2025great}
+Mark Russinovich, Ahmed Salem, and Ronen Eldan.
+\newblock Great, now write an article about that: The crescendo $\{$Multi-Turn$\}$$\{$LLM$\}$ jailbreak attack.
+\newblock In \emph{34th USENIX Security Symposium (USENIX Security 25)}, pages 2421--2440, 2025.
+
+\bibitem[Xie et~al.(2025{\natexlab{b}})Xie, Yuan, Wang, Mo, Guo, and He]{xie2025toolsafety}
+Yuejin Xie, Youliang Yuan, Wenxuan Wang, Fan Mo, Jianmin Guo, and Pinjia He.
+\newblock Toolsafety: A comprehensive dataset for enhancing safety in llm-based agent tool invocations.
+\newblock In \emph{Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing}, pages 14146--14167, 2025{\natexlab{b}}.
+
+\bibitem[Chen et~al.(2024{\natexlab{a}})Chen, Shen, Shen, Zhi, Chen, and Lin]{chen2024towards}
+Zhi-Yuan Chen, Shiqi Shen, Guangyao Shen, Gong Zhi, Xu~Chen, and Yankai Lin.
+\newblock Towards tool use alignment of large language models.
+\newblock In \emph{Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing}, pages 1382--1400, 2024{\natexlab{a}}.
+
+\bibitem[Yang et~al.(2025{\natexlab{b}})Yang, Zhang, Han, Wang, Zhuang, Jin, Shao, Sun, and Zhang]{yang2025speech}
+Yudong Yang, Xuezhen Zhang, Zhifeng Han, Siyin Wang, Jimin Zhuang, Zengrui Jin, Jing Shao, Guangzhi Sun, and Chao Zhang.
+\newblock Speech-audio compositional attacks on multimodal llms and their mitigation with salmonn-guard.
+\newblock \emph{arXiv preprint arXiv:2511.10222}, 2025{\natexlab{b}}.
+
+\bibitem[Wang et~al.(2026{\natexlab{a}})Wang, Liu, Chen, Zhang, and Wu]{wang2026voxprivacy}
+Yuxiang Wang, Hongyu Liu, Dekun Chen, Xueyao Zhang, and Zhizheng Wu.
+\newblock Voxprivacy: A benchmark for evaluating interactional privacy of speech language models.
+\newblock \emph{arXiv preprint arXiv:2601.19956}, 2026{\natexlab{a}}.
+
+\bibitem[Wang et~al.(2026{\natexlab{b}})Wang, Lin, Luo, Wang, Chen, Aloqaily, Tang, Zhou, Wang, Sun, et~al.]{wang2026hearsay}
+Jin Wang, Liang Lin, Kaiwen Luo, Weiliu Wang, Yitian Chen, Moayad Aloqaily, Xuehai Tang, Zhenhong Zhou, Kun Wang, Li~Sun, et~al.
+\newblock Hearsay benchmark: Do audio llms leak what they hear?
+\newblock \emph{arXiv preprint arXiv:2601.03783}, 2026{\natexlab{b}}.
+
+\bibitem[Du et~al.(2025)Du, Gao, Wang, Yu, Zhao, Wang, Lv, Wang, Shi, An, et~al.]{du2025cosyvoice}
+Zhihao Du, Changfeng Gao, Yuxuan Wang, Fan Yu, Tianyu Zhao, Hao Wang, Xiang Lv, Hui Wang, Xian Shi, Keyu An, et~al.
+\newblock Cosyvoice 3: Towards in-the-wild speech generation via scaling-up and post-training.
+\newblock \emph{arXiv preprint arXiv:2505.17589}, 2025.
+
+\bibitem[Radford et~al.(2022)Radford, Kim, Xu, Brockman, McLeavey, and Sutskever]{radford2022whisper}
+Alec Radford, Jong~Wook Kim, Tao Xu, Greg Brockman, Christine McLeavey, and Ilya Sutskever.
+\newblock Robust speech recognition via large-scale weak supervision, 2022.
+\newblock URL \url{https://arxiv.org/abs/2212.04356}.
+
+\bibitem[Wang et~al.(2025)Wang, Wu, Li, Yang, Chen, Zhang, and Meng]{wang2025mmsu}
+Dingdong Wang, Jincenzi Wu, Junan Li, Dongchao Yang, Xueyuan Chen, Tianhua Zhang, and Helen Meng.
+\newblock Mmsu: A massive multi-task spoken language understanding and reasoning benchmark.
+\newblock \emph{arXiv preprint arXiv:2506.04779}, 2025.
+
+\bibitem[Kumar et~al.(2025)Kumar, Sedl{\'a}{\v{c}}ek, Lokegaonkar, L{\'o}pez, Yu, Anand, Ryu, Chen, Pli{\v{c}}ka, Hlav{\'a}{\v{c}}ek, et~al.]{kumar2025mmau}
+Sonal Kumar, {\v{S}}imon Sedl{\'a}{\v{c}}ek, Vaibhavi Lokegaonkar, Fernando L{\'o}pez, Wenyi Yu, Nishit Anand, Hyeonggon Ryu, Lichang Chen, Maxim Pli{\v{c}}ka, Miroslav Hlav{\'a}{\v{c}}ek, et~al.
+\newblock Mmau-pro: A challenging and comprehensive benchmark for holistic evaluation of audio general intelligence.
+\newblock \emph{arXiv preprint arXiv:2508.13992}, 2025.
+
+\bibitem[Xu et~al.(2025)Xu, Guo, Hu, Chu, Wang, He, Wang, Shi, He, Zhu, et~al.]{xu2025qwen3}
+Jin Xu, Zhifang Guo, Hangrui Hu, Yunfei Chu, Xiong Wang, Jinzheng He, Yuxuan Wang, Xian Shi, Ting He, Xinfa Zhu, et~al.
+\newblock Qwen3-omni technical report.
+\newblock \emph{arXiv preprint arXiv:2509.17765}, 2025.
+
+\bibitem[Zhang et~al.(2025{\natexlab{a}})Zhang, Wang, Xue, Fang, Zhao, Ma, Ren, Liu, Guo, Zhuang, et~al.]{zhang2025mimo}
+Dong Zhang, Gang Wang, Jinlong Xue, Kai Fang, Liang Zhao, Rui Ma, Shuhuai Ren, Shuo Liu, Tao Guo, Weiji Zhuang, et~al.
+\newblock Mimo-audio: Audio language models are few-shot learners.
+\newblock \emph{arXiv preprint arXiv:2512.23808}, 2025{\natexlab{a}}.
+
+\bibitem[Ding et~al.(2025)Ding, Ju, Leng, Liu, Liu, Shang, Shen, Song, Tan, Tang, et~al.]{ding2025kimi}
+Ding Ding, Zeqian Ju, Yichong Leng, Songxiang Liu, Tong Liu, Zeyu Shang, Kai Shen, Wei Song, Xu~Tan, Heyi Tang, et~al.
+\newblock Kimi-audio technical report.
+\newblock \emph{arXiv preprint arXiv:2504.18425}, 2025.
+
+\bibitem[Achiam et~al.(2023)Achiam, Adler, Agarwal, Ahmad, Akkaya, Aleman, Almeida, Altenschmidt, Altman, Anadkat, et~al.]{achiam2023gpt}
+Josh Achiam, Steven Adler, Sandhini Agarwal, Lama Ahmad, Ilge Akkaya, Florencia~Leoni Aleman, Diogo Almeida, Janko Altenschmidt, Sam Altman, Shyamal Anadkat, et~al.
+\newblock Gpt-4 technical report.
+\newblock \emph{arXiv preprint arXiv:2303.08774}, 2023.
+
+\bibitem[Weidinger et~al.(2021)Weidinger, Mellor, Rauh, Griffin, Uesato, Huang, Cheng, Glaese, Balle, Kasirzadeh, et~al.]{weidinger2021ethical}
+Laura Weidinger, John Mellor, Maribeth Rauh, Conor Griffin, Jonathan Uesato, Po-Sen Huang, Myra Cheng, Mia Glaese, Borja Balle, Atoosa Kasirzadeh, et~al.
+\newblock Ethical and social risks of harm from language models.
+\newblock \emph{arXiv preprint arXiv:2112.04359}, 2021.
+
+\bibitem[Fraser and Kiritchenko(2024)]{fraser2024examining}
+Kathleen~C Fraser and Svetlana Kiritchenko.
+\newblock Examining gender and racial bias in large vision--language models using a novel dataset of parallel images.
+\newblock In \emph{Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)}, pages 690--713, 2024.
+
+\bibitem[Nangia et~al.(2020)Nangia, Vania, Bhalerao, and Bowman]{nangia2020crows}
+Nikita Nangia, Clara Vania, Rasika Bhalerao, and Samuel Bowman.
+\newblock Crows-pairs: A challenge dataset for measuring social biases in masked language models.
+\newblock In \emph{Proceedings of the 2020 conference on empirical methods in natural language processing (EMNLP)}, pages 1953--1967, 2020.
+
+\bibitem[Hida et~al.(2024)Hida, Kaneko, and Okazaki]{hida2024social}
+Rem Hida, Masahiro Kaneko, and Naoaki Okazaki.
+\newblock Social bias evaluation for large language models requires prompt variations.
+\newblock \emph{arXiv preprint arXiv:2407.03129}, 2024.
+
+\bibitem[Satish et~al.(2025)Satish, Henter, and Sz{\'e}kely]{satish2025voice}
+Shree Harsha~Bokkahalli Satish, Gustav~Eje Henter, and {\'E}va Sz{\'e}kely.
+\newblock When voice matters: Evidence of gender disparity in positional bias of speechllms.
+\newblock \emph{arXiv preprint arXiv:2510.02398}, 2025.
+
+\bibitem[Si et~al.(2025)Si, Jiang, Su, and Carin]{si2025detecting}
+Shijing Si, Xiaoming Jiang, Qinliang Su, and Lawrence Carin.
+\newblock Detecting implicit biases of large language models with bayesian hypothesis testing.
+\newblock \emph{Scientific Reports}, 15\penalty0 (1):\penalty0 12415, 2025.
+
+\bibitem[Barocas et~al.(2023)Barocas, Hardt, and Narayanan]{barocas2023fairness}
+Solon Barocas, Moritz Hardt, and Arvind Narayanan.
+\newblock \emph{Fairness and machine learning: Limitations and opportunities}.
+\newblock MIT press, 2023.
+
+\bibitem[Madras et~al.(2018)Madras, Pitassi, and Zemel]{madras2018predict}
+David Madras, Toni Pitassi, and Richard Zemel.
+\newblock Predict responsibly: improving fairness and accuracy by learning to defer.
+\newblock \emph{Advances in neural information processing systems}, 31, 2018.
+
+\bibitem[Huang et~al.(2025{\natexlab{b}})Huang, Yan, Liu, Wan, Wang, Chang, and Lyu]{huang2025fact}
+Jen-tse Huang, Yuhang Yan, Linqi Liu, Yixin Wan, Wenxuan Wang, Kai-Wei Chang, and Michael~R Lyu.
+\newblock Where fact ends and fairness begins: Redefining ai bias evaluation through cognitive biases.
+\newblock \emph{arXiv preprint arXiv:2502.05849}, 2025{\natexlab{b}}.
+
+\bibitem[Guyer et~al.(2021)Guyer, Bri{\~n}ol, Vaughan-Johnston, Fabrigar, Moreno, and Petty]{guyer2021paralinguistic}
+Joshua~J Guyer, Pablo Bri{\~n}ol, Thomas~I Vaughan-Johnston, Leandre~R Fabrigar, Lorena Moreno, and Richard~E Petty.
+\newblock Paralinguistic features communicated through voice can affect appraisals of confidence and evaluative judgments.
+\newblock \emph{Journal of nonverbal behavior}, 45\penalty0 (4):\penalty0 479--504, 2021.
+
+\bibitem[Van~Zant and Berger(2020)]{van2020voice}
+Alex~B Van~Zant and Jonah Berger.
+\newblock How the voice persuades.
+\newblock \emph{Journal of personality and social psychology}, 118\penalty0 (4):\penalty0 661, 2020.
+
+\bibitem[Chen et~al.(2024{\natexlab{b}})Chen, Yue, Zhang, Gao, Tan, and Li]{chen2024voicebenchbenchmarkingllmbasedvoice}
+Yiming Chen, Xianghu Yue, Chen Zhang, Xiaoxue Gao, Robby~T Tan, and Haizhou Li.
+\newblock Voicebench: Benchmarking llm-based voice assistants.
+\newblock \emph{arXiv preprint arXiv:2410.17196}, 2024{\natexlab{b}}.
+
+\bibitem[Li et~al.(2026)Li, Ji, Chen, Liang, Ying, Wang, Li, Fang, and Zhao]{li2026wavbenchbenchmarkingreasoningcolloquialism}
+Yangzhuo Li, Shengpeng Ji, Yifu Chen, Tianle Liang, Haorong Ying, Yule Wang, Junbo Li, Jun Fang, and Zhou Zhao.
+\newblock Wavbench: Benchmarking reasoning, colloquialism, and paralinguistics for end-to-end spoken dialogue models.
+\newblock \emph{arXiv preprint arXiv:2602.12135}, 2026.
+
+\bibitem[Wallace et~al.(2024)Wallace, Xiao, Leike, Weng, Heidecke, and Beutel]{wallace2024instructionhierarchytrainingllms}
+Eric Wallace, Kai Xiao, Reimar Leike, Lilian Weng, Johannes Heidecke, and Alex Beutel.
+\newblock The instruction hierarchy: Training llms to prioritize privileged instructions.
+\newblock \emph{arXiv preprint arXiv:2404.13208}, 2024.
+
+\bibitem[Li et~al.(2023)Li, Zhou, Zhu, Yao, Liu, and Han]{li2024deepinceptionhypnotizelargelanguage}
+Xuan Li, Zhanke Zhou, Jianing Zhu, Jiangchao Yao, Tongliang Liu, and Bo~Han.
+\newblock Deepinception: Hypnotize large language model to be jailbreaker.
+\newblock \emph{arXiv preprint arXiv:2311.03191}, 2023.
+
+\bibitem[Wang et~al.(2024{\natexlab{b}})Wang, Duan, Xiao, Jia, Zhao, Wei, Chen, Wang, Tao, Su, et~al.]{wang2025mrjagenteffectivejailbreakagent}
+Fengxiang Wang, Ranjie Duan, Peng Xiao, Xiaojun Jia, Shiji Zhao, Cheng Wei, YueFeng Chen, Chongwen Wang, Jialing Tao, Hang Su, et~al.
+\newblock Mrj-agent: An effective jailbreak agent for multi-round dialogue.
+\newblock \emph{arXiv preprint arXiv:2411.03814}, 2024{\natexlab{b}}.
+
+\bibitem[Roh et~al.(2025)Roh, Shejwalkar, and Houmansadr]{roh2025multilingualmultiaccentjailbreakingaudio}
+Jaechul Roh, Virat Shejwalkar, and Amir Houmansadr.
+\newblock Multilingual and multi-accent jailbreaking of audio llms.
+\newblock \emph{arXiv preprint arXiv:2504.01094}, 2025.
+
+\bibitem[Yang et~al.(2025{\natexlab{c}})Yang, Li, Fang, Wei, and Chen]{yang-etal-2025-withstand}
+Wanqi Yang, Yanda Li, Meng Fang, Yunchao Wei, and Ling Chen.
+\newblock Who can withstand chat-audio attacks? an evaluation benchmark for large audio-language models.
+\newblock In \emph{Findings of the Association for Computational Linguistics: ACL 2025}, pages 17205--17220, 2025{\natexlab{c}}.
+
+\bibitem[Yang et~al.(2025{\natexlab{d}})Yang, Qu, Shareghi, and Haffari]{yang-etal-2025-audio}
+Hao Yang, Lizhen Qu, Ehsan Shareghi, and Gholamreza Haffari.
+\newblock Audio is the achilles’ heel: Red teaming audio large multimodal models.
+\newblock In \emph{Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)}, pages 9292--9306, 2025{\natexlab{d}}.
+
+\bibitem[Liu et~al.(2024{\natexlab{a}})Liu, Zhu, Gu, Lan, Yang, and Qiao]{liu2024mmsafetybenchbenchmarksafetyevaluation}
+Xin Liu, Yichen Zhu, Jindong Gu, Yunshi Lan, Chao Yang, and Yu~Qiao.
+\newblock Mm-safetybench: A benchmark for safety evaluation of multimodal large language models.
+\newblock In \emph{European Conference on Computer Vision}, pages 386--403. Springer, 2024{\natexlab{a}}.
+
+\bibitem[Gu et~al.(2024)Gu, Zhou, Huang, Dandan, Wang, Zhao, Yao, Yang, Teng, Qiao, et~al.]{gu2024mllmguardmultidimensionalsafetyevaluation}
+Tianle Gu, Zeyang Zhou, Kexin Huang, Liang Dandan, Yixu Wang, Haiquan Zhao, Yuanqi Yao, Yujiu Yang, Yan Teng, Yu~Qiao, et~al.
+\newblock Mllmguard: A multi-dimensional safety evaluation suite for multimodal large language models.
+\newblock \emph{Advances in Neural Information Processing Systems}, 37:\penalty0 7256--7295, 2024.
+
+\bibitem[Pan et~al.(2025)Pan, Fu, Zhai, Tao, Guan, Huang, Zhang, Liu, Ding, Henry, et~al.]{pan2025omnisafetybenchbenchmarksafetyevaluation}
+Leyi Pan, Zheyu Fu, Yunpeng Zhai, Shuchang Tao, Sheng Guan, Shiyu Huang, Lingzhe Zhang, Zhaoyang Liu, Bolin Ding, Felix Henry, et~al.
+\newblock Omni-safetybench: A benchmark for safety evaluation of audio-visual large language models.
+\newblock \emph{arXiv preprint arXiv:2508.07173}, 2025.
+
+\bibitem[Yan et~al.(2025)Yan, Xie, Li, Yu, Lyu, and Jin]{yan2025outsafebenchbenchmarkmultimodaloffensive}
+Yuping Yan, Yuhan Xie, Yuanshuai Li, Yingchao Yu, Lingjuan Lyu, and Yaochu Jin.
+\newblock Outsafe-bench: A benchmark for multimodal offensive content detection in large language models.
+\newblock \emph{arXiv preprint arXiv:2511.10287}, 2025.
+
+\bibitem[Nadeem et~al.(2021)Nadeem, Bethke, and Reddy]{nadeem2020stereoset}
+Moin Nadeem, Anna Bethke, and Siva Reddy.
+\newblock Stereoset: Measuring stereotypical bias in pretrained language models.
+\newblock In \emph{Proceedings of the 59th annual meeting of the association for computational linguistics and the 11th international joint conference on natural language processing (volume 1: long papers)}, pages 5356--5371, 2021.
+
+\bibitem[Blodgett et~al.(2020)Blodgett, Barocas, Daum{\'e}~Iii, and Wallach]{blodgett2020language}
+Su~Lin Blodgett, Solon Barocas, Hal Daum{\'e}~Iii, and Hanna Wallach.
+\newblock Language (technology) is power: A critical survey of “bias” in nlp.
+\newblock In \emph{Proceedings of the 58th annual meeting of the association for computational linguistics}, pages 5454--5476, 2020.
+
+\bibitem[Gallegos et~al.(2024)Gallegos, Rossi, Barrow, Tanjim, Kim, Dernoncourt, Yu, Zhang, and Ahmed]{gallegos2023bias}
+Isabel~O Gallegos, Ryan~A Rossi, Joe Barrow, Md~Mehrab Tanjim, Sungchul Kim, Franck Dernoncourt, Tong Yu, Ruiyi Zhang, and Nesreen~K Ahmed.
+\newblock Bias and fairness in large language models: A survey.
+\newblock \emph{Computational linguistics}, 50\penalty0 (3):\penalty0 1097--1179, 2024.
+
+\bibitem[Lin et~al.(2024{\natexlab{a}})Lin, Lin, Yang, Lu, Chen, Kuan, and Lee]{lin2024listenspeakfairlystudy}
+Yi-Cheng Lin, Tzu-Quan Lin, Chih-Kai Yang, Ke-Han Lu, Wei-Chih Chen, Chun-Yi Kuan, and Hung-yi Lee.
+\newblock Listen and speak fairly: a study on semantic gender bias in speech integrated large language models.
+\newblock In \emph{2024 IEEE Spoken Language Technology Workshop (SLT)}, pages 439--446. IEEE, 2024{\natexlab{a}}.
+
+\bibitem[Lin et~al.(2024{\natexlab{b}})Lin, Chen, and Lee]{lin2024spokenstereosetevaluatingsocial}
+Yi-Cheng Lin, Wei-Chih Chen, and Hung-yi Lee.
+\newblock Spoken stereoset: on evaluating social bias toward speaker in speech large language models.
+\newblock In \emph{2024 IEEE Spoken Language Technology Workshop (SLT)}, pages 871--878. IEEE, 2024{\natexlab{b}}.
+
+\bibitem[Wu et~al.(2025{\natexlab{b}})Wu, Wang, Peng, Chao, Zhuang, Wang, Yin, and Ma]{wu2025evaluatingbiasspokendialogue}
+Yihao Wu, Tianrui Wang, Yizhou Peng, Yi-Wen Chao, Xuyi Zhuang, Xinsheng Wang, Shunshun Yin, and Ziyang Ma.
+\newblock Evaluating bias in spoken dialogue llms for real-world decisions and recommendations.
+\newblock \emph{arXiv preprint arXiv:2510.02352}, 2025{\natexlab{b}}.
+
+\bibitem[Rai et~al.(2025)Rai, Rahangdale, Anand, and Mukherjee]{rai2025asrfairbenchmeasuringbenchmarkingequity}
+Anand Rai, Satyam Rahangdale, Utkarsh Anand, and Animesh Mukherjee.
+\newblock Asr-fairbench: Measuring and benchmarking equity across speech recognition systems.
+\newblock \emph{arXiv preprint arXiv:2505.11572}, 2025.
+
+\bibitem[Kuan and Lee(2025)]{kuan-lee-2025-gender}
+Chun-Yi Kuan and Hung-yi Lee.
+\newblock Gender bias in instruction-guided speech synthesis models.
+\newblock In \emph{Findings of the Association for Computational Linguistics: NAACL 2025}, pages 5387--5413, 2025.
+
+\bibitem[Ngong et~al.(2025)Ngong, Kadhe, Wang, Murugesan, Weisz, Dhurandhar, and Ramamurthy]{ngong-etal-2025-protecting}
+Ivoline~C Ngong, Swanand~Ravindra Kadhe, Hao Wang, Keerthiram Murugesan, Justin~D Weisz, Amit Dhurandhar, and Karthikeyan~Natesan Ramamurthy.
+\newblock Protecting users from themselves: Safeguarding contextual privacy in interactions with conversational agents.
+\newblock In \emph{Findings of the Association for Computational Linguistics: ACL 2025}, pages 26196--26220, 2025.
+
+\bibitem[Wang et~al.(2023)Wang, Chen, Pei, Xie, Kang, Zhang, Xu, Xiong, Dutta, Schaeffer, et~al.]{wang2024decodingtrustcomprehensiveassessmenttrustworthiness}
+Boxin Wang, Weixin Chen, Hengzhi Pei, Chulin Xie, Mintong Kang, Chenhui Zhang, Chejian Xu, Zidi Xiong, Ritik Dutta, Rylan Schaeffer, et~al.
+\newblock Decodingtrust: A comprehensive assessment of trustworthiness in $\{$GPT$\}$ models.
+\newblock 2023.
+
+\bibitem[Huang et~al.(2024)Huang, Sun, Wang, Wu, Zhang, Li, Gao, Huang, Lyu, Zhang, et~al.]{huang2024trustllmtrustworthinesslargelanguage}
+Yue Huang, Lichao Sun, Haoran Wang, Siyuan Wu, Qihui Zhang, Yuan Li, Chujie Gao, Yixin Huang, Wenhan Lyu, Yixuan Zhang, et~al.
+\newblock Trustllm: Trustworthiness in large language models.
+\newblock \emph{arXiv preprint arXiv:2401.05561}, 2024.
+
+\bibitem[Wagner et~al.(2023)Wagner, Triantafyllopoulos, Wierstorf, Schmitt, Burkhardt, Eyben, and Schuller]{10089511}
+Johannes Wagner, Andreas Triantafyllopoulos, Hagen Wierstorf, Maximilian Schmitt, Felix Burkhardt, Florian Eyben, and Björn~W. Schuller.
+\newblock Dawn of the transformer era in speech emotion recognition: Closing the valence gap.
+\newblock \emph{IEEE Transactions on Pattern Analysis and Machine Intelligence}, 45\penalty0 (9):\penalty0 10745--10759, 2023.
+\newblock \doi{10.1109/TPAMI.2023.3263585}.
+
+\bibitem[Shah et~al.(2023)Shah, Pour, Tagade, Casper, Rando, et~al.]{shah2023scalabletransferableblackboxjailbreaks}
+Rusheb Shah, Soroush Pour, Arush Tagade, Stephen Casper, Javier Rando, et~al.
+\newblock Scalable and transferable black-box jailbreaks for language models via persona modulation.
+\newblock \emph{arXiv preprint arXiv:2311.03348}, 2023.
+
+\bibitem[Zhang et~al.(2024{\natexlab{c}})Zhang, Zhang, Li, Shao, Gao, Qiao, Wang, Lu, and Zhao]{zhang2024psysafecomprehensiveframeworkpsychologicalbased}
+Zaibin Zhang, Yongting Zhang, Lijun Li, Jing Shao, Hongzhi Gao, Yu~Qiao, Lijun Wang, Huchuan Lu, and Feng Zhao.
+\newblock Psysafe: A comprehensive framework for psychological-based attack, defense, and evaluation of multi-agent system safety.
+\newblock In \emph{Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pages 15202--15231, 2024{\natexlab{c}}.
+
+\bibitem[Zhang et~al.(2025{\natexlab{b}})Zhang, Cao, Cao, Lin, Mitra, and Chen]{zhang2024wordgameefficienteffective}
+Tianrong Zhang, Bochuan Cao, Yuanpu Cao, Lu~Lin, Prasenjit Mitra, and Jinghui Chen.
+\newblock Wordgame: Efficient \& effective llm jailbreak via simultaneous obfuscation in query and response.
+\newblock In \emph{Findings of the Association for Computational Linguistics: NAACL 2025}, pages 4779--4807, 2025{\natexlab{b}}.
+
+\bibitem[Sarabamoun(2025)]{sarabamoun2025specialcharacteradversarialattacksopensource}
+Ephraiem Sarabamoun.
+\newblock Special-character adversarial attacks on open-source language model.
+\newblock \emph{arXiv preprint arXiv:2508.14070}, 2025.
+
+\bibitem[Zeng et~al.(2024)Zeng, Lin, Zhang, Yang, Jia, and Shi]{zeng2024johnnypersuadellmsjailbreak}
+Yi~Zeng, Hongpeng Lin, Jingwen Zhang, Diyi Yang, Ruoxi Jia, and Weiyan Shi.
+\newblock How johnny can persuade llms to jailbreak them: Rethinking persuasion to challenge ai safety by humanizing llms.
+\newblock In \emph{Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pages 14322--14350, 2024.
+
+\bibitem[Guyer et~al.(2019)Guyer, Fabrigar, and Vaughan-Johnston]{guyer2019speech}
+Joshua~J Guyer, Leandre~R Fabrigar, and Thomas~I Vaughan-Johnston.
+\newblock Speech rate, intonation, and pitch: Investigating the bias and cue effects of vocal confidence on persuasion.
+\newblock \emph{Personality and Social Psychology Bulletin}, 45\penalty0 (3):\penalty0 389--405, 2019.
+
+\bibitem[Guyer et~al.(2025)Guyer, Vaughan-Johnston, Fabrigar, Paredes, Bri{\~n}ol, and Shen]{guyer2025vocal}
+Joshua~J Guyer, Thomas~I Vaughan-Johnston, Leandre~R Fabrigar, Borja Paredes, Pablo Bri{\~n}ol, and Minqian Shen.
+\newblock Vocal speed and processing of persuasive messages: Curvilinear processing effects.
+\newblock \emph{Journal of Nonverbal Behavior}, 49\penalty0 (1):\penalty0 171--203, 2025.
+
+\bibitem[Vaughan-Johnston et~al.(2021)Vaughan-Johnston, Guyer, Fabrigar, and Shen]{vaughan2021role}
+Thomas~I Vaughan-Johnston, Joshua~J Guyer, Leandre~R Fabrigar, and Charlie Shen.
+\newblock The role of vocal affect in persuasion: The civa model.
+\newblock \emph{Journal of Nonverbal Behavior}, 45\penalty0 (4):\penalty0 455--477, 2021.
+
+\bibitem[Wang et~al.(2024{\natexlab{c}})Wang, Xie, Wang, Wang, Gui, Ma, and Chen]{wang2024footdoorunderstandinglarge}
+Zhenhua Wang, Wei Xie, Baosheng Wang, Enze Wang, Zhiwen Gui, Shuoyoucheng Ma, and Kai Chen.
+\newblock Foot in the door: Understanding large language model jailbreaking via cognitive psychology.
+\newblock \emph{arXiv preprint arXiv:2402.15690}, 2024{\natexlab{c}}.
+
+\bibitem[Yang et~al.(2024)Yang, Qu, Shareghi, and Haffari]{yang2024jigsawpuzzlessplittingharmful}
+Hao Yang, Lizhen Qu, Ehsan Shareghi, and Gholamreza Haffari.
+\newblock Jigsaw puzzles: Splitting harmful questions to jailbreak large language models.
+\newblock \emph{arXiv preprint arXiv:2410.11459}, 2024.
+
+\bibitem[Ren et~al.(2025)Ren, Li, Liu, Xie, Lu, Qiao, Sha, Yan, Ma, and Shao]{ren2025llms}
+Qibing Ren, Hao Li, Dongrui Liu, Zhanxu Xie, Xiaoya Lu, Yu~Qiao, Lei Sha, Junchi Yan, Lizhuang Ma, and Jing Shao.
+\newblock Llms know their vulnerabilities: Uncover safety gaps through natural distribution shifts.
+\newblock In \emph{Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pages 24763--24785, 2025.
+
+\bibitem[Jiang et~al.(2025)Jiang, Aggarwal, Laud, Munir, Pujara, and Mukherjee]{jiang-etal-2025-red}
+Yifan Jiang, Kriti Aggarwal, Tanmay Laud, Kashif Munir, Jay Pujara, and Subhabrata Mukherjee.
+\newblock Red queen: Exposing latent multi-turn risks in large language models.
+\newblock In \emph{Findings of the Association for Computational Linguistics: ACL 2025}, pages 25554--25591, 2025.
+
+\bibitem[Winner(2017)]{winner2017artifacts}
+Langdon Winner.
+\newblock Do artifacts have politics?
+\newblock In \emph{Computer ethics}, pages 177--192. Routledge, 2017.
+
+\bibitem[Zhao et~al.(2017)Zhao, Wang, Yatskar, Ordonez, and Chang]{zhao2017men}
+Jieyu Zhao, Tianlu Wang, Mark Yatskar, Vicente Ordonez, and Kai-Wei Chang.
+\newblock Men also like shopping: Reducing gender bias amplification using corpus-level constraints.
+\newblock In \emph{Proceedings of the 2017 conference on empirical methods in natural language processing}, pages 2979--2989, 2017.
+
+\bibitem[Abid et~al.(2021)Abid, Farooqi, and Zou]{abid2021large}
+Abubakar Abid, Maheen Farooqi, and James Zou.
+\newblock Large language models associate muslims with violence.
+\newblock \emph{Nature Machine Intelligence}, 3\penalty0 (6):\penalty0 461--463, 2021.
+
+\bibitem[Liu et~al.(2024{\natexlab{b}})Liu, Feng, Xue, Wang, Wu, Lu, Zhao, Deng, Zhang, Ruan, et~al.]{liu2024deepseek}
+Aixin Liu, Bei Feng, Bing Xue, Bingxuan Wang, Bochao Wu, Chengda Lu, Chenggang Zhao, Chengqi Deng, Chenyu Zhang, Chong Ruan, et~al.
+\newblock Deepseek-v3 technical report.
+\newblock \emph{arXiv preprint arXiv:2412.19437}, 2024{\natexlab{b}}.
+
+\end{thebibliography}

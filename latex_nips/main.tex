@@ -1,0 +1,280 @@
+\documentclass{article}
+
+% if you need to pass options to natbib, use, e.g.:
+    \PassOptionsToPackage{numbers, compress}{natbib}
+% before loading neurips_2025
+
+% The authors should use one of these tracks.
+% Before accepting by the NeurIPS conference, select one of the options below.
+% 0. "default" for submission
+ \usepackage{neurips_2025}
+% the "default" option is equal to the "main" option, which is used for the Main Track with double-blind reviewing.
+% 1. "main" option is used for the Main Track
+%  \usepackage[main]{neurips_2025}
+% 2. "position" option is used for the Position Paper Track
+%  \usepackage[position]{neurips_2025}
+% 3. "dandb" option is used for the Datasets & Benchmarks Track
+ % \usepackage[dandb]{neurips_2025}
+% 4. "creativeai" option is used for the Creative AI Track
+%  \usepackage[creativeai]{neurips_2025}
+% 5. "sglblindworkshop" option is used for the Workshop with single-blind reviewing
+ % \usepackage[sglblindworkshop]{neurips_2025}
+% 6. "dblblindworkshop" option is used for the Workshop with double-blind reviewing
+%  \usepackage[dblblindworkshop]{neurips_2025}
+
+% After being accepted, the authors should add "final" behind the track to compile a camera-ready version.
+% 1. Main Track
+ % \usepackage[main, final]{neurips_2025}
+% 2. Position Paper Track
+%  \usepackage[position, final]{neurips_2025}
+% 3. Datasets & Benchmarks Track
+ % \usepackage[dandb, final]{neurips_2025}
+% 4. Creative AI Track
+%  \usepackage[creativeai, final]{neurips_2025}
+% 5. Workshop with single-blind reviewing
+%  \usepackage[sglblindworkshop, final]{neurips_2025}
+% 6. Workshop with double-blind reviewing
+%  \usepackage[dblblindworkshop, final]{neurips_2025}
+% Note. For the workshop paper template, both \title{} and \workshoptitle{} are required, with the former indicating the paper title shown in the title and the latter indicating the workshop title displayed in the footnote.
+% For workshops (5., 6.), the authors should add the name of the workshop, "\workshoptitle" command is used to set the workshop title.
+% \workshoptitle{WORKSHOP TITLE}
+
+% "preprint" option is used for arXiv or other preprint submissions
+ % \usepackage[preprint]{neurips_2025}
+
+% to avoid loading the natbib package, add option nonatbib:
+%    \usepackage[nonatbib]{neurips_2025}
+
+\usepackage[utf8]{inputenc} % allow utf-8 input
+\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
+\usepackage{CJKutf8}        % support CJK characters under pdfLaTeX
+\usepackage{hyperref}       % hyperlinks
+\usepackage{url}            % simple URL typesetting
+\usepackage{booktabs}       % professional-quality tables
+\usepackage{amsfonts}       % blackboard math symbols
+\usepackage{nicefrac}       % compact symbols for 1/2, etc.
+\usepackage{microtype}      % microtypography
+\usepackage{xcolor}         % colors
+\usepackage{utfsym}
+
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{seqsplit}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{booktabs,threeparttable,adjustbox,multirow}
+\usepackage[font=normalsize,labelfont=bf,skip=6pt]{caption}
+\usepackage[most]{tcolorbox}
+\usepackage{microtype}
+\usepackage{titletoc}
+\usepackage{mdframed}
+\definecolor{acmblue}{RGB}{0,112,192}
+\usepackage{booktabs} 
+\usepackage{makecell}
+\usepackage{enumitem}
+\usepackage{colortbl}     
+\usepackage{array} 
+\renewcommand{\arraystretch}{1.1} 
+\usepackage{caption}     
+\usepackage{longtable} 
+\usepackage{pifont} 
+\usepackage[textsize=tiny]{todonotes}
+% \theoremstyle{remark}
+\newtheorem{remark}{\textbf{Remark}}
+\usepackage{hhline}
+\usepackage{amsmath} 
+\usepackage{amssymb} 
+\usepackage{pifont}
+\usepackage{nicematrix}
+\usepackage{subcaption}
+\usepackage{threeparttable,adjustbox,multirow}
+\usepackage{tabularx}
+\usepackage{xurl}
+\usepackage{xfrac}
+\usepackage{nicematrix}
+\usepackage{bm}
+\usepackage{wasysym}
+\usepackage{booktabs} 
+\usepackage{pifont}
+\usepackage{threeparttable}
+\usepackage{tcolorbox} 
+\usepackage{textcomp}
+\usepackage{placeins} % preamble
+\usepackage{fontawesome5}
+
+% ── Global float tuning: reduce whitespace around tables/figures ──
+\renewcommand{\topfraction}{0.9}        % up to 90% of page top for floats
+\renewcommand{\bottomfraction}{0.9}     % up to 90% of page bottom for floats
+\renewcommand{\textfraction}{0.07}      % at least 7% of page must be text
+\renewcommand{\floatpagefraction}{0.8}  % float-only page must be ≥80% full
+\setcounter{topnumber}{3}               % max 3 floats at top of page
+\setcounter{bottomnumber}{3}            % max 3 floats at bottom of page
+\setcounter{totalnumber}{5}             % max 5 floats per page total
+\setlength{\textfloatsep}{10pt plus 3pt minus 2pt}   % space between float and text
+\setlength{\floatsep}{8pt plus 2pt minus 2pt}        % space between two floats
+\setlength{\intextsep}{8pt plus 2pt minus 2pt}       % space around [h] floats
+\setlength{\dbltextfloatsep}{10pt plus 3pt minus 2pt} % same for two-column
+\setlength{\dblfloatsep}{8pt plus 2pt minus 2pt}
+% \usepackage{fontawesome}
+\newcommand{\cmark}{\ding{51}} % ✓
+\newcommand{\xmark}{\ding{55}} % ✗
+% \newcommand{\pmark}{\ensuremath{\circ}}
+% \newcommand{\pmark}{\ensuremath{\circ}} % ◐ (you can replace with $\sim$ if you prefer)
+% \newcommand{\pmark}{\usym{25D0}}
+
+
+\newcommand{\pmark}{\mbox{\rlap{\LEFTcircle}\Circle}}
+
+
+
+% Soft NeurIPS-friendly colors
+\definecolor{safetyHdr}{HTML}{F9D7D5}
+\definecolor{safetyRow}{HTML}{FDECEA}
+\definecolor{fairHdr}{HTML}{D7E6FB}
+\definecolor{fairRow}{HTML}{EAF2FD}
+\definecolor{privHdr}{HTML}{D7F0E1}
+\definecolor{privRow}{HTML}{EAF7EF}
+
+% Stylish appendix table of contents
+\titlecontents{lsection}
+  [1.5em]
+  {\vspace{1em}\bfseries}
+  {\contentslabel{1.5em}}
+  {\hspace*{-1.5em}}
+  {\hfill\normalfont\contentspage}
+
+\titlecontents{lsubsection}
+  [3.8em]
+  {\vspace{0.1em}}
+  {\contentslabel{2.3em}}
+  {\hspace*{-2.3em}}
+  {\titlerule*[0.5pc]{.}\contentspage}
+
+\titlecontents{lsubsubsection}
+  [6.8em]
+  {\vspace{0.1em}}
+  {\contentslabel{3.0em}}
+  {\hspace*{-3.0em}}
+  {\titlerule*[0.5pc]{.}\contentspage}
+
+\newcommand{\printappendixcontents}{%
+  \clearpage
+  {\Huge\bfseries Appendix\par}
+  \vspace{1.5em}
+  {\Large\bfseries Table of Contents\par}
+  \vspace{0.3em}
+  \hrule
+  \vspace{1.5em}
+  \contentsmargin{0pt}
+  \printcontents[appendix]{l}{1}[3]{}
+  \clearpage
+}
+
+% Optional symbols (MultiTrust-like, pdflatex safe)
+\newcommand{\DSoff}{\ensuremath{\circ}}      % off-the-shelf
+\newcommand{\DSadapt}{\ensuremath{\oplus}}   % adapted
+\newcommand{\DSnew}{\ensuremath{\bullet}}    % constructed
+\newcommand{\EVrule}{\ensuremath{\circ}}     % rule-based
+\newcommand{\EVauto}{\ensuremath{\bullet}}   % automatic judge/classifier
+\newcommand{\EVmix}{\ensuremath{\ominus}}    % mixed
+
+% Note. For the workshop paper template, both \title{} and \workshoptitle{} are required, with the former indicating the paper title shown in the title and the latter indicating the workshop title displayed in the footnote. 
+\title{VoxAlign: Not Just What You Say, but How You Say It}
+
+
+% The \author macro works with any number of authors. There are two commands
+% used to separate the names and addresses of multiple authors: \And and \AND.
+%
+% Using \And between authors leaves it to LaTeX to determine where to break the
+% lines. Using \AND forces a line break at that point. So, if LaTeX puts 3 of 4
+% authors names on the first line, and the last on the second line, try using
+% \AND instead of \And before the third author name.
+
+
+\author{%
+  David S.~Hippocampus\thanks{Use footnote for providing further information
+    about author (webpage, alternative address)---\emph{not} for acknowledging
+    funding agencies.} \\
+  Department of Computer Science\\
+  Cranberry-Lemon University\\
+  Pittsburgh, PA 15213 \\
+  \texttt{hippo@cs.cranberry-lemon.edu} \\
+  % examples of more authors
+  % \And
+  % Coauthor \\
+  % Affiliation \\
+  % Address \\
+  % \texttt{email} \\
+  % \AND
+  % Coauthor \\
+  % Affiliation \\
+  % Address \\
+  % \texttt{email} \\
+  % \And
+  % Coauthor \\
+  % Affiliation \\
+  % Address \\
+  % \texttt{email} \\
+  % \And
+  % Coauthor \\
+  % Affiliation \\
+  % Address \\
+  % \texttt{email} \\
+}
+
+
+\begin{document}
+
+
+
+\maketitle
+% \FloatBarrier
+
+\begin{abstract}
+As speech language models (SLMs) become a primary interface for seeking advice and delegating tasks, their alignment cannot be assessed from transcripts alone. Unlike text, speech carries paralinguistic and environmental cues that can change whether a response is safe, fair, or privacy-preserving. Yet prior benchmarks largely emphasize audio understanding or study individual risks in isolation, without separating harmful content from benign content whose appropriateness depends on how it is spoken. We introduce VoxAlign, a benchmark for \emph{social alignment} in SLMs built around safety, fairness, and privacy. VoxAlign adopts a Two-Tier design: Tier~1 evaluates content-centric risks with matched text and audio inputs, while Tier~2 evaluates audio-conditioned risks in which the transcript is benign but the correct response depends on who is speaking, how they speak, or where they speak. Across 22 tasks and bilingual evaluations, we find that safeguards that appear stronger on transcripts often weaken in speech. Models are markedly less reliable when fairness-relevant contrasts move from explicit text into voice, and privacy protections weaken when contextual cues arrive acoustically. Overall, the results are consistent with current SLMs often knowing the relevant norm in text but not consistently applying it when the deciding cue must be grounded in speech.
+\end{abstract}
+
+
+
+
+\input{chaps/Introduction}
+\input{chaps/Philosophy_of_MultiTrust}
+\input{chaps/Safety}
+\input{chaps/Fairness}
+\input{chaps/Privacy}
+\input{chaps/Conclusion}
+
+
+
+\clearpage
+
+\bibliography{ref}
+\bibliographystyle{unsrtnat}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+
+\appendix
+\startcontents[appendix]
+
+\printappendixcontents
+
+\clearpage
+
+\begin{figure*}[!t]
+    \centering
+    \includegraphics[width=\textwidth]{{graphs/VoxAlign}.pdf}
+    \caption{Detailed task taxonomy of the VoxAlign benchmark in the appendix. This figure complements the conceptual overview in Figure~\ref{fig:Bigpic} and the tabular summary in Table~\ref{tab:sa_task_overview} by expanding the full hierarchy of Safety, Fairness, and Privacy tasks across Tier~1 and Tier~2.}
+    \label{fig:social_alignment_appendix}
+\end{figure*}
+\FloatBarrier
+
+% \input{chaps/Appendix}
+\input{chaps/Related_works.tex}
+\input{chaps/Dataset_construction.tex}
+\input{chaps/Appendix_safety.tex}
+\input{chaps/Appendix_fairness.tex}
+\input{chaps/Appendix_privacy.tex}
+\input{chaps/Appendix_llm_judge.tex}
+\end{document}

@@ -1,0 +1,98 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {section}{\numberline {2}Philosophy of XXX}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Motivation}{1}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Evaluation Aspects}{2}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Dataset Construction}{3}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Evaluation Models}{3}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Safety}{3}{section.3}%
+\contentsline {paragraph}{Harmful content and jailbreak vulnerabilities.}{3}{section*.6}%
+\contentsline {paragraph}{Agentic action risks.}{4}{section*.7}%
+\contentsline {section}{\numberline {4}Fairness}{4}{section.4}%
+\contentsline {section}{\numberline {5}Privacy}{6}{section.5}%
+\contentsline {paragraph}{Hard vs.\ Soft Privacy.}{6}{section*.11}%
+\contentsline {paragraph}{Interactional Privacy.}{7}{section*.13}%
+\contentsline {paragraph}{Inferential Privacy.}{8}{section*.14}%
+\ttl@starttoc {appendix@1}
+\contentsline {section}{\numberline {A}Related Works}{16}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Audio/Speech Language Models and Spoken Benchmarks}{16}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Safety Evaluation: From Refusal to Jailbreak and Agentic Risks}{16}{subsection.A.2}%
+\contentsline {subsection}{\numberline {A.3}Fairness and Social Bias in SLMs}{17}{subsection.A.3}%
+\contentsline {subsection}{\numberline {A.4}Privacy Risks in Conversational and Voice Interfaces}{17}{subsection.A.4}%
+\contentsline {subsection}{\numberline {A.5}Summary: Positioning XXX}{18}{subsection.A.5}%
+\contentsline {section}{\numberline {B}Dataset Construction}{18}{appendix.B}%
+\contentsline {paragraph}{Stage 1: Data acquisition and text preparation.}{18}{section*.17}%
+\contentsline {paragraph}{Stage 2: Prompt-audio pool and speech synthesis.}{18}{section*.18}%
+\contentsline {paragraph}{Stage 3: Tier-specific output construction.}{19}{section*.20}%
+\contentsline {paragraph}{Stage 4: Quality filtering and human verification.}{19}{section*.21}%
+\contentsline {section}{\numberline {C}Additional Details of Safety Evaluation}{19}{appendix.C}%
+\contentsline {subsection}{\numberline {C.1}Tier~1 Evaluation Rubric and Metrics}{21}{subsection.C.1}%
+\contentsline {paragraph}{Metrics.}{21}{section*.23}%
+\contentsline {paragraph}{Failure rubric (generative).}{21}{section*.24}%
+\contentsline {paragraph}{Task formats.}{22}{section*.25}%
+\contentsline {subsection}{\numberline {C.2}Harmful Content}{22}{subsection.C.2}%
+\contentsline {paragraph}{Motivation.}{22}{section*.26}%
+\contentsline {paragraph}{Taxonomy (three super-categories, 20 sub-categories).}{22}{section*.27}%
+\contentsline {paragraph}{How the three super-categories differ.}{22}{section*.29}%
+\contentsline {paragraph}{Data sources and taxonomy grounding.}{22}{section*.30}%
+\contentsline {paragraph}{Detailed Evaluation Results.}{22}{section*.32}%
+\contentsline {subsection}{\numberline {C.3}Jailbreak: Prompt-based Safety Evasion}{23}{subsection.C.3}%
+\contentsline {paragraph}{Motivation.}{23}{section*.34}%
+\contentsline {subsubsection}{\numberline {C.3.1}Single-turn jailbreak}{25}{subsubsection.C.3.1}%
+\contentsline {paragraph}{Taxonomy.}{25}{section*.35}%
+\contentsline {paragraph}{From textual persuasion to acoustic manipulation.}{25}{section*.37}%
+\contentsline {subsubsection}{\numberline {C.3.2}Multi-turn jailbreak}{25}{subsubsection.C.3.2}%
+\contentsline {paragraph}{Why multi-turn is different.}{25}{section*.38}%
+\contentsline {paragraph}{A two-axis taxonomy: methodology $\times $ scenario cloak.}{26}{section*.39}%
+\contentsline {paragraph}{Methodology axis (high-level).}{26}{section*.40}%
+\contentsline {paragraph}{Scenario cloak axis.}{26}{section*.41}%
+\contentsline {subsubsection}{\numberline {C.3.3}Detailed Jailbreak Evaluation Results}{26}{subsubsection.C.3.3}%
+\contentsline {paragraph}{Key patterns.}{26}{section*.45}%
+\contentsline {paragraph}{Impact of acoustic disturbance.}{27}{section*.46}%
+\contentsline {paragraph}{Discriminative safety classification.}{27}{table.caption.51}%
+\contentsline {paragraph}{Discriminative vs.\ generative mismatch.}{27}{section*.52}%
+\contentsline {subsection}{\numberline {C.4}SLM Agent Action Safety}{30}{subsection.C.4}%
+\contentsline {paragraph}{Motivation.}{30}{section*.53}%
+\contentsline {paragraph}{Taxonomy: direct vs.\ indirect harm.}{30}{section*.54}%
+\contentsline {section}{\numberline {D}Additional Details of Fairness Evaluation}{30}{appendix.D}%
+\contentsline {subsection}{\numberline {D.1}Fairness Dimensions, Definitions, and Motivation}{31}{subsection.D.1}%
+\contentsline {paragraph}{Social Stereotypes.}{31}{section*.57}%
+\contentsline {paragraph}{Exclusionary Norms.}{32}{section*.58}%
+\contentsline {subsection}{\numberline {D.2}Dataset Construction and Quality Control}{32}{subsection.D.2}%
+\contentsline {paragraph}{Stage 1: LLM Generation.}{32}{section*.59}%
+\contentsline {paragraph}{Stage 2: Dual Filtering (LLM + Human).}{32}{section*.60}%
+\contentsline {paragraph}{Stage 3: Audio Synthesis (CosyVoice3).}{32}{section*.61}%
+\contentsline {paragraph}{Stage 4: ASR-based Quality Assurance.}{32}{section*.62}%
+\contentsline {subsection}{\numberline {D.3}LLM-Judge Rubric Prompt for FAIR/UNFAIR/SKIP}{33}{subsection.D.3}%
+\contentsline {subsection}{\numberline {D.4}Full Fairness Evaluation Results}{33}{subsection.D.4}%
+\contentsline {paragraph}{Analysis of Acoustic Robustness (Clean vs.\ Diverse).}{33}{section*.63}%
+\contentsline {subsection}{\numberline {D.5}Binomial Test and $p$-value Computation for Directional Bias}{34}{subsection.D.5}%
+\contentsline {paragraph}{Motivation.}{34}{section*.65}%
+\contentsline {paragraph}{Calculation.}{34}{section*.66}%
+\contentsline {subsection}{\numberline {D.6}Qualitative Examples}{34}{subsection.D.6}%
+\contentsline {section}{\numberline {E}Additional Details of Privacy Evaluation}{35}{appendix.E}%
+\contentsline {subsection}{\numberline {E.1}Dimension 1: Structured PII \& Credentials (Hard Privacy)}{38}{subsection.E.1}%
+\contentsline {paragraph}{Definition and rationale.}{38}{section*.72}%
+\contentsline {paragraph}{Field taxonomy.}{38}{section*.73}%
+\contentsline {paragraph}{Scenario design and data construction.}{38}{section*.76}%
+\contentsline {paragraph}{Prompt scenarios.}{38}{section*.77}%
+\contentsline {subsection}{\numberline {E.2}Dimension 2: Contextual \& Social Privacy (Soft Privacy)}{40}{subsection.E.2}%
+\contentsline {paragraph}{Definition and rationale.}{40}{section*.79}%
+\contentsline {paragraph}{Category taxonomy.}{40}{section*.80}%
+\contentsline {paragraph}{Data construction (semantic scripts).}{40}{section*.81}%
+\contentsline {paragraph}{Scenario taxonomy and expected behavior.}{40}{section*.82}%
+\contentsline {subsection}{\numberline {E.3}Tier~1 Evaluation Rubric and Metrics}{40}{subsection.E.3}%
+\contentsline {paragraph}{Discriminative evaluation setup.}{40}{section*.84}%
+\contentsline {paragraph}{Generative LLM-as-judge setup.}{40}{section*.85}%
+\contentsline {subsection}{\numberline {E.4}Detailed Tier~1 Evaluation Results}{43}{subsection.E.4}%
+\contentsline {paragraph}{Detailed results by language and task.}{43}{section*.86}%
+\contentsline {subsection}{\numberline {E.5}Tier~2: Interactional Privacy (P2.2)}{44}{subsection.E.5}%
+\contentsline {paragraph}{Definition and rationale.}{44}{section*.88}%
+\contentsline {paragraph}{Task setup.}{44}{section*.89}%
+\contentsline {paragraph}{Automatic labeling and metrics.}{44}{section*.90}%
+\contentsline {paragraph}{Results and analysis.}{44}{section*.91}%
+\contentsline {subsection}{\numberline {E.6}Tier~2: Inferential Privacy (P2.3)}{45}{subsection.E.6}%
+\contentsline {paragraph}{Definition and rationale.}{45}{section*.93}%
+\contentsline {paragraph}{Why we evaluate five UGI attributes.}{45}{section*.94}%
+\contentsline {paragraph}{Task setup and metrics.}{45}{section*.95}%
+\contentsline {paragraph}{Results and analysis.}{45}{section*.96}%
+\contentsfinish 

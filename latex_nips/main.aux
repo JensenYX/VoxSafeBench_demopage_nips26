@@ -1,0 +1,429 @@
+\relax 
+\providecommand\zref@newlabel[2]{}
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\nicematrix@redefine@check@rerun 
+\citation{fang2025trustworthy,liu2023trustworthy,liu2023training}
+\citation{zhang2024multitrust,ying2026safebench,lu2025sea,huang2025trustworthiness}
+\providecommand \oddpage@label [2]{}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces An overview of the XXX benchmark.}}{1}{figure.caption.2}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:Bigpic}{{1}{1}{An overview of the XXX benchmark}{figure.caption.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Philosophy of XXX}{1}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Motivation}{1}{subsection.2.1}\protected@file@percent }
+\citation{zhang2024multitrust,li2025audiotrust,lee2025ahelm}
+\citation{sun2023safety,gong2025figstep,zhang2024safetybenchevaluatingsafetylarge,xie2025sorrybenchsystematicallyevaluatinglarge,hui2025tridentbenchmarkingllmsafety,mou2024sgbenchevaluatingllmsafety,wang-etal-2024-answer,markov2023holisticapproachundesiredcontent}
+\citation{changbalancing,wu2025analogy,202511.0088,yang2025multi,andriushchenko2025jailbreakingleadingsafetyalignedllms,zou2023universaltransferableadversarialattacks,yu2026now,peng2025jalmbench,russinovich2025great}
+\citation{xie2025toolsafety,chen2024towards}
+\citation{yang2025speech}
+\citation{wang2026voxprivacy}
+\citation{wang2026hearsay}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Coverage comparison of audio/speech trustworthiness benchmarks under a unified Social Alignment taxonomy. \textbf  {Legend:} {\fontfamily  {pzd}\fontencoding  {U}\fontseries  {m}\fontshape  {n}\selectfont  \char 51}~fully evaluated; \mbox  {\rlap  {\unhbox \voidb@x \hbox to 0pt{\fontencoding  {U}\fontfamily  {wasy}\selectfont  \char 71\hss }\hbox {\fontencoding  {U}\fontfamily  {wasy}\selectfont  \char 35}}\mbox  {\fontencoding  {U}\fontfamily  {wasy}\selectfont  \char 35}}~partially covered; {\fontfamily  {pzd}\fontencoding  {U}\fontseries  {m}\fontshape  {n}\selectfont  \char 55}~not covered. \textbf  {Modality:} T-text; A-audio; V-video; I-image.}}{2}{table.caption.3}\protected@file@percent }
+\newlabel{tab:taxonomy_compare}{{1}{2}{Coverage comparison of audio/speech trustworthiness benchmarks under a unified Social Alignment taxonomy. \textbf {Legend:} \cmark ~fully evaluated; \pmark ~partially covered; \xmark ~not covered. \textbf {Modality:} T-text; A-audio; V-video; I-image}{table.caption.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces \textbf  {Task overview of our Social Alignment benchmark.} The benchmark is organized into three pillars (Safety, Fairness, Privacy), each with Tier~1 (content-centric) and Tier~2 (audio-conditioned) task families.}}{2}{table.caption.4}\protected@file@percent }
+\newlabel{tab:sa_task_overview}{{2}{2}{\textbf {Task overview of our Social Alignment benchmark.} The benchmark is organized into three pillars (Safety, Fairness, Privacy), each with Tier~1 (content-centric) and Tier~2 (audio-conditioned) task families}{table.caption.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Evaluation Aspects}{2}{subsection.2.2}\protected@file@percent }
+\newlabel{sec:Evaluation Aspects}{{2.2}{2}{Evaluation Aspects}{subsection.2.2}{}}
+\citation{du2025cosyvoice}
+\citation{radford2022whisper}
+\citation{wang2025mmsu}
+\citation{kumar2025mmau}
+\citation{xu2025qwen3}
+\citation{zhang2025mimo}
+\citation{ding2025kimi}
+\citation{achiam2023gpt}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Dataset Construction}{3}{subsection.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Evaluation Models}{3}{subsection.2.4}\protected@file@percent }
+\newlabel{sec:Evaluation Models}{{2.4}{3}{Evaluation Models}{subsection.2.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Safety}{3}{section.3}\protected@file@percent }
+\newlabel{sec:safety}{{3}{3}{Safety}{section.3}{}}
+\@writefile{toc}{\contentsline {paragraph}{Harmful content and jailbreak vulnerabilities.}{3}{section*.6}\protected@file@percent }
+\citation{weidinger2021ethical}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Tier~1 safety evaluation. \textbf  {Left:} Safety degradation trajectories in the RtA--Toxicity plane under escalating adversarial attacks: No Jailbreak ($\circ $), Single-turn ($\square $), and Multi-turn ($\triangle $). The safe region lies in the top-left (high RtA, low Toxicity). Dashed/solid lines denote text/audio modalities; red/blue distinguish reasoning (Thinking/Pro) and standard variants. \textbf  {Right:} Agentic Refusal-to-Answer (RtA) under Direct vs.\ Indirect harm (a), and the text--audio vulnerability gap in Direct harm mirroring single-turn jailbreak behavior (b).}}{4}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:safety_tier1}{{2}{4}{Tier~1 safety evaluation. \textbf {Left:} Safety degradation trajectories in the RtA--Toxicity plane under escalating adversarial attacks: No Jailbreak ($\circ $), Single-turn ($\square $), and Multi-turn ($\triangle $). The safe region lies in the top-left (high RtA, low Toxicity). Dashed/solid lines denote text/audio modalities; red/blue distinguish reasoning (Thinking/Pro) and standard variants. \textbf {Right:} Agentic Refusal-to-Answer (RtA) under Direct vs.\ Indirect harm (a), and the text--audio vulnerability gap in Direct harm mirroring single-turn jailbreak behavior (b)}{figure.caption.5}{}}
+\@writefile{toc}{\contentsline {paragraph}{Agentic action risks.}{4}{section*.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Fairness}{4}{section.4}\protected@file@percent }
+\newlabel{sec:fairness}{{4}{4}{Fairness}{section.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Fairness evaluation results (Fair Rate $\uparrow $, \%) across four stereotype dimensions, reported as \textit  {EN\,/\,ZH}. \raisebox  {0.15ex}{\textcolor {fairHdr}{\rule  {0.85ex}{0.85ex}}}\,Tier\,1 columns evaluate single-turn fairness across Text and Audio (averaged Clean and Diverse) modalities. \raisebox  {0.15ex}{\textcolor {safetyHdr}{\rule  {0.85ex}{0.85ex}}}\,\textbf  {Tier\,2} columns probe acoustic-contexted fairness. \textbf  {Bold}: column best per language; ``---'': text input not supported; $^\dagger $: thinking variant.}}{5}{table.caption.8}\protected@file@percent }
+\newlabel{tab:fairness}{{3}{5}{Fairness evaluation results (Fair Rate $\uparrow $, \%) across four stereotype dimensions, reported as \textit {EN\,/\,ZH}. \raisebox {0.15ex}{\textcolor {fairHdr}{\rule {0.85ex}{0.85ex}}}\,Tier\,1 columns evaluate single-turn fairness across Text and Audio (averaged Clean and Diverse) modalities. \raisebox {0.15ex}{\textcolor {safetyHdr}{\rule {0.85ex}{0.85ex}}}\,\textbf {Tier\,2} columns probe acoustic-contexted fairness. \textbf {Bold}: column best per language; ``---'': text input not supported; $^\dagger $: thinking variant}{table.caption.8}{}}
+\citation{fraser2024examining,nangia2020crows,hida2024social}
+\citation{satish2025voice}
+\citation{si2025detecting}
+\citation{barocas2023fairness,madras2018predict,huang2025fact}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Net Bias Score (\%) across five dimensions. Blue/Orange dots denote English/Chinese queries. Positive values (right) reflect alignment with societal stereotypes; negative values (left) indicate counter-stereotype biases. The connecting gray line highlights the \textit  {language bias gap}. Asterisks ($^*$) denote statistical significance ($p < 0.05$).}}{6}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:bias_dumbbell}{{3}{6}{Net Bias Score (\%) across five dimensions. Blue/Orange dots denote English/Chinese queries. Positive values (right) reflect alignment with societal stereotypes; negative values (left) indicate counter-stereotype biases. The connecting gray line highlights the \textit {language bias gap}. Asterisks ($^*$) denote statistical significance ($p < 0.05$)}{figure.caption.9}{}}
+\newlabel{eq:nbs}{{1}{6}{Fairness}{equation.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Privacy}{6}{section.5}\protected@file@percent }
+\newlabel{sec:privacy}{{5}{6}{Privacy}{section.5}{}}
+\@writefile{toc}{\contentsline {paragraph}{Hard vs.\ Soft Privacy.}{6}{section*.11}\protected@file@percent }
+\citation{wang2026hearsay}
+\citation{wang2026hearsay}
+\citation{wang2026hearsay}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Tier~1 hard/soft privacy results. Each cell reports \textbf  {Leakage} (\(\downarrow \)) / \textbf  {Refusal-to-Answer} (RtA, \(\uparrow \)) rates (\%), aggregated over EN+ZH, under three modalities: Text (pure-text), Clean audio, and Diverse audio. Tier~2 Acoustic-Cond.\ privacy (DAR/WAR/RtA) is pending. ``---'': text input not supported; $^\dagger $: thinking variant.}}{7}{table.caption.10}\protected@file@percent }
+\newlabel{tab:privacy_tier1}{{4}{7}{Tier~1 hard/soft privacy results. Each cell reports \textbf {Leakage} (\(\downarrow \)) / \textbf {Refusal-to-Answer} (RtA, \(\uparrow \)) rates (\%), aggregated over EN+ZH, under three modalities: Text (pure-text), Clean audio, and Diverse audio. Tier~2 Acoustic-Cond.\ privacy (DAR/WAR/RtA) is pending. ``---'': text input not supported; $^\dagger $: thinking variant}{table.caption.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces \textbf  {(a) Interactional privacy:} Precision--recall (English/Chinese); contours show F1 and marker size encodes accuracy (0.50 $\approx $ random guessing). \textbf  {(b) Inferential privacy:} Refusal-to-Answer (RtA) vs. inference accuracy (ACC) on five sensitive attributes from HearSay~\cite  {wang2026hearsay}. Error bars denote standard deviation; safer models lie in the bottom-right region (high RtA, low ACC).}}{7}{figure.caption.12}\protected@file@percent }
+\newlabel{fig:privacy_results}{{4}{7}{\textbf {(a) Interactional privacy:} Precision--recall (English/Chinese); contours show F1 and marker size encodes accuracy (0.50 $\approx $ random guessing). \textbf {(b) Inferential privacy:} Refusal-to-Answer (RtA) vs. inference accuracy (ACC) on five sensitive attributes from HearSay~\cite {wang2026hearsay}. Error bars denote standard deviation; safer models lie in the bottom-right region (high RtA, low ACC)}{figure.caption.12}{}}
+\@writefile{toc}{\contentsline {paragraph}{Interactional Privacy.}{7}{section*.13}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Inferential Privacy.}{8}{section*.14}\protected@file@percent }
+\bibdata{ref}
+\bibcite{fang2025trustworthy}{{1}{2025}{{Fang et~al.}}{{Fang, Li, Mulchandani, and Kim}}}
+\bibcite{liu2023trustworthy}{{2}{2023{}}{{Liu et~al.}}{{Liu, Yao, Ton, Zhang, Guo, Cheng, Klochkov, Taufiq, and Li}}}
+\bibcite{liu2023training}{{3}{2023{}}{{Liu et~al.}}{{Liu, Yang, Jia, Zhang, Zhou, Dai, Yang, and Vosoughi}}}
+\bibcite{zhang2024multitrust}{{4}{2024{}}{{Zhang et~al.}}{{Zhang, Huang, Sun, Liu, Zhao, Fang, Wang, Chen, Yang, Wei, et~al.}}}
+\bibcite{ying2026safebench}{{5}{2026}{{Ying et~al.}}{{Ying, Liu, Liang, Huang, Guo, Zhou, Liu, and Tao}}}
+\bibcite{lu2025sea}{{6}{2025}{{Lu et~al.}}{{Lu, Peng, Zhuang, Chen, and Zeng}}}
+\bibcite{huang2025trustworthiness}{{7}{2025{}}{{Huang et~al.}}{{Huang, Gao, Wu, Wang, Wang, Zhou, Wang, Ye, Shi, Zhang, et~al.}}}
+\bibcite{li2025audiotrust}{{8}{2025}{{Li et~al.}}{{Li, Shen, Liu, Han, Zheng, Zou, Wang, Zhang, Du, Luo, et~al.}}}
+\bibcite{lee2025ahelm}{{9}{2025}{{Lee et~al.}}{{Lee, Tu, Wong, Wang, Yang, Mai, Zhou, Xie, and Liang}}}
+\bibcite{sun2023safety}{{10}{2023}{{Sun et~al.}}{{Sun, Zhang, Deng, Cheng, and Huang}}}
+\bibcite{gong2025figstep}{{11}{2025}{{Gong et~al.}}{{Gong, Ran, Liu, Wang, Cong, Wang, Duan, and Wang}}}
+\bibcite{zhang2024safetybenchevaluatingsafetylarge}{{12}{2024{}}{{Zhang et~al.}}{{Zhang, Lei, Wu, Sun, Huang, Long, Liu, Lei, Tang, and Huang}}}
+\bibcite{xie2025sorrybenchsystematicallyevaluatinglarge}{{13}{2025{}}{{Xie et~al.}}{{Xie, Qi, Zeng, Huang, Sehwag, Huang, He, Wei, Li, Sheng, Jia, Li, Li, Chen, Henderson, and Mittal}}}
+\bibcite{hui2025tridentbenchmarkingllmsafety}{{14}{2025}{{Hui et~al.}}{{Hui, Dong, Shareghi, and Collier}}}
+\bibcite{mou2024sgbenchevaluatingllmsafety}{{15}{2024}{{Mou et~al.}}{{Mou, Zhang, and Ye}}}
+\bibcite{wang-etal-2024-answer}{{16}{2024{}}{{Wang et~al.}}{{Wang, Li, Han, Nakov, and Baldwin}}}
+\bibcite{markov2023holisticapproachundesiredcontent}{{17}{2023}{{Markov et~al.}}{{Markov, Zhang, Agarwal, Eloundou, Lee, Adler, Jiang, and Weng}}}
+\bibcite{changbalancing}{{18}{}{{Chang et~al.}}{{Chang, Lau, Liu, and Tang}}}
+\bibcite{wu2025analogy}{{19}{2025{}}{{Wu et~al.}}{{Wu, Huang, Lin, Chen, Huang, Wang, Wang, et~al.}}}
+\bibcite{202511.0088}{{20}{2026}{{Gulyamov et~al.}}{{Gulyamov, Gulyamov, Rodionov, Khursanov, Mekhmonov, Babaev, and Rakhimjonov}}}
+\bibcite{yang2025multi}{{21}{2025{}}{{Yang et~al.}}{{Yang, Lee, Dick, Timm, Xie, and Cruz}}}
+\bibcite{andriushchenko2025jailbreakingleadingsafetyalignedllms}{{22}{2024}{{Andriushchenko et~al.}}{{Andriushchenko, Croce, and Flammarion}}}
+\bibcite{zou2023universaltransferableadversarialattacks}{{23}{2023}{{Zou et~al.}}{{Zou, Wang, Carlini, Nasr, Kolter, and Fredrikson}}}
+\bibcite{yu2026now}{{24}{2026}{{Yu et~al.}}{{Yu, Jin, Yu, Zhuang, and Wang}}}
+\bibcite{peng2025jalmbench}{{25}{2025}{{Peng et~al.}}{{Peng, Liu, Sun, Li, Luo, Zheng, Dong, He, Wang, Xue, et~al.}}}
+\bibcite{russinovich2025great}{{26}{2025}{{Russinovich et~al.}}{{Russinovich, Salem, and Eldan}}}
+\bibcite{xie2025toolsafety}{{27}{2025{}}{{Xie et~al.}}{{Xie, Yuan, Wang, Mo, Guo, and He}}}
+\bibcite{chen2024towards}{{28}{2024{}}{{Chen et~al.}}{{Chen, Shen, Shen, Zhi, Chen, and Lin}}}
+\bibcite{yang2025speech}{{29}{2025{}}{{Yang et~al.}}{{Yang, Zhang, Han, Wang, Zhuang, Jin, Shao, Sun, and Zhang}}}
+\bibcite{wang2026voxprivacy}{{30}{2026{}}{{Wang et~al.}}{{Wang, Liu, Chen, Zhang, and Wu}}}
+\bibcite{wang2026hearsay}{{31}{2026{}}{{Wang et~al.}}{{Wang, Lin, Luo, Wang, Chen, Aloqaily, Tang, Zhou, Wang, Sun, et~al.}}}
+\bibcite{du2025cosyvoice}{{32}{2025}{{Du et~al.}}{{Du, Gao, Wang, Yu, Zhao, Wang, Lv, Wang, Shi, An, et~al.}}}
+\bibcite{radford2022whisper}{{33}{2022}{{Radford et~al.}}{{Radford, Kim, Xu, Brockman, McLeavey, and Sutskever}}}
+\bibcite{wang2025mmsu}{{34}{2025}{{Wang et~al.}}{{Wang, Wu, Li, Yang, Chen, Zhang, and Meng}}}
+\bibcite{kumar2025mmau}{{35}{2025}{{Kumar et~al.}}{{Kumar, Sedl{\'a}{\v {c}}ek, Lokegaonkar, L{\'o}pez, Yu, Anand, Ryu, Chen, Pli{\v {c}}ka, Hlav{\'a}{\v {c}}ek, et~al.}}}
+\bibcite{xu2025qwen3}{{36}{2025}{{Xu et~al.}}{{Xu, Guo, Hu, Chu, Wang, He, Wang, Shi, He, Zhu, et~al.}}}
+\bibcite{zhang2025mimo}{{37}{2025{}}{{Zhang et~al.}}{{Zhang, Wang, Xue, Fang, Zhao, Ma, Ren, Liu, Guo, Zhuang, et~al.}}}
+\bibcite{ding2025kimi}{{38}{2025}{{Ding et~al.}}{{Ding, Ju, Leng, Liu, Liu, Shang, Shen, Song, Tan, Tang, et~al.}}}
+\bibcite{achiam2023gpt}{{39}{2023}{{Achiam et~al.}}{{Achiam, Adler, Agarwal, Ahmad, Akkaya, Aleman, Almeida, Altenschmidt, Altman, Anadkat, et~al.}}}
+\bibcite{weidinger2021ethical}{{40}{2021}{{Weidinger et~al.}}{{Weidinger, Mellor, Rauh, Griffin, Uesato, Huang, Cheng, Glaese, Balle, Kasirzadeh, et~al.}}}
+\bibcite{fraser2024examining}{{41}{2024}{{Fraser and Kiritchenko}}{{}}}
+\bibcite{nangia2020crows}{{42}{2020}{{Nangia et~al.}}{{Nangia, Vania, Bhalerao, and Bowman}}}
+\bibcite{hida2024social}{{43}{2024}{{Hida et~al.}}{{Hida, Kaneko, and Okazaki}}}
+\bibcite{satish2025voice}{{44}{2025}{{Satish et~al.}}{{Satish, Henter, and Sz{\'e}kely}}}
+\bibcite{si2025detecting}{{45}{2025}{{Si et~al.}}{{Si, Jiang, Su, and Carin}}}
+\bibcite{barocas2023fairness}{{46}{2023}{{Barocas et~al.}}{{Barocas, Hardt, and Narayanan}}}
+\bibcite{madras2018predict}{{47}{2018}{{Madras et~al.}}{{Madras, Pitassi, and Zemel}}}
+\bibcite{huang2025fact}{{48}{2025{}}{{Huang et~al.}}{{Huang, Yan, Liu, Wan, Wang, Chang, and Lyu}}}
+\bibcite{guyer2021paralinguistic}{{49}{2021}{{Guyer et~al.}}{{Guyer, Bri{\~n}ol, Vaughan-Johnston, Fabrigar, Moreno, and Petty}}}
+\bibcite{van2020voice}{{50}{2020}{{Van~Zant and Berger}}{{}}}
+\bibcite{chen2024voicebenchbenchmarkingllmbasedvoice}{{51}{2024{}}{{Chen et~al.}}{{Chen, Yue, Zhang, Gao, Tan, and Li}}}
+\bibcite{li2026wavbenchbenchmarkingreasoningcolloquialism}{{52}{2026}{{Li et~al.}}{{Li, Ji, Chen, Liang, Ying, Wang, Li, Fang, and Zhao}}}
+\bibcite{wallace2024instructionhierarchytrainingllms}{{53}{2024}{{Wallace et~al.}}{{Wallace, Xiao, Leike, Weng, Heidecke, and Beutel}}}
+\bibcite{li2024deepinceptionhypnotizelargelanguage}{{54}{2023}{{Li et~al.}}{{Li, Zhou, Zhu, Yao, Liu, and Han}}}
+\bibcite{wang2025mrjagenteffectivejailbreakagent}{{55}{2024{}}{{Wang et~al.}}{{Wang, Duan, Xiao, Jia, Zhao, Wei, Chen, Wang, Tao, Su, et~al.}}}
+\bibcite{roh2025multilingualmultiaccentjailbreakingaudio}{{56}{2025}{{Roh et~al.}}{{Roh, Shejwalkar, and Houmansadr}}}
+\bibcite{yang-etal-2025-withstand}{{57}{2025{}}{{Yang et~al.}}{{Yang, Li, Fang, Wei, and Chen}}}
+\bibcite{yang-etal-2025-audio}{{58}{2025{}}{{Yang et~al.}}{{Yang, Qu, Shareghi, and Haffari}}}
+\bibcite{liu2024mmsafetybenchbenchmarksafetyevaluation}{{59}{2024{}}{{Liu et~al.}}{{Liu, Zhu, Gu, Lan, Yang, and Qiao}}}
+\bibcite{gu2024mllmguardmultidimensionalsafetyevaluation}{{60}{2024}{{Gu et~al.}}{{Gu, Zhou, Huang, Dandan, Wang, Zhao, Yao, Yang, Teng, Qiao, et~al.}}}
+\bibcite{pan2025omnisafetybenchbenchmarksafetyevaluation}{{61}{2025}{{Pan et~al.}}{{Pan, Fu, Zhai, Tao, Guan, Huang, Zhang, Liu, Ding, Henry, et~al.}}}
+\bibcite{yan2025outsafebenchbenchmarkmultimodaloffensive}{{62}{2025}{{Yan et~al.}}{{Yan, Xie, Li, Yu, Lyu, and Jin}}}
+\bibcite{nadeem2020stereoset}{{63}{2021}{{Nadeem et~al.}}{{Nadeem, Bethke, and Reddy}}}
+\bibcite{blodgett2020language}{{64}{2020}{{Blodgett et~al.}}{{Blodgett, Barocas, Daum{\'e}~Iii, and Wallach}}}
+\bibcite{gallegos2023bias}{{65}{2024}{{Gallegos et~al.}}{{Gallegos, Rossi, Barrow, Tanjim, Kim, Dernoncourt, Yu, Zhang, and Ahmed}}}
+\bibcite{lin2024listenspeakfairlystudy}{{66}{2024{}}{{Lin et~al.}}{{Lin, Lin, Yang, Lu, Chen, Kuan, and Lee}}}
+\bibcite{lin2024spokenstereosetevaluatingsocial}{{67}{2024{}}{{Lin et~al.}}{{Lin, Chen, and Lee}}}
+\bibcite{wu2025evaluatingbiasspokendialogue}{{68}{2025{}}{{Wu et~al.}}{{Wu, Wang, Peng, Chao, Zhuang, Wang, Yin, and Ma}}}
+\bibcite{rai2025asrfairbenchmeasuringbenchmarkingequity}{{69}{2025}{{Rai et~al.}}{{Rai, Rahangdale, Anand, and Mukherjee}}}
+\bibcite{kuan-lee-2025-gender}{{70}{2025}{{Kuan and Lee}}{{}}}
+\bibcite{ngong-etal-2025-protecting}{{71}{2025}{{Ngong et~al.}}{{Ngong, Kadhe, Wang, Murugesan, Weisz, Dhurandhar, and Ramamurthy}}}
+\bibcite{wang2024decodingtrustcomprehensiveassessmenttrustworthiness}{{72}{2023}{{Wang et~al.}}{{Wang, Chen, Pei, Xie, Kang, Zhang, Xu, Xiong, Dutta, Schaeffer, et~al.}}}
+\bibcite{huang2024trustllmtrustworthinesslargelanguage}{{73}{2024}{{Huang et~al.}}{{Huang, Sun, Wang, Wu, Zhang, Li, Gao, Huang, Lyu, Zhang, et~al.}}}
+\bibcite{10089511}{{74}{2023}{{Wagner et~al.}}{{Wagner, Triantafyllopoulos, Wierstorf, Schmitt, Burkhardt, Eyben, and Schuller}}}
+\bibcite{shah2023scalabletransferableblackboxjailbreaks}{{75}{2023}{{Shah et~al.}}{{Shah, Pour, Tagade, Casper, Rando, et~al.}}}
+\bibcite{zhang2024psysafecomprehensiveframeworkpsychologicalbased}{{76}{2024{}}{{Zhang et~al.}}{{Zhang, Zhang, Li, Shao, Gao, Qiao, Wang, Lu, and Zhao}}}
+\bibcite{zhang2024wordgameefficienteffective}{{77}{2025{}}{{Zhang et~al.}}{{Zhang, Cao, Cao, Lin, Mitra, and Chen}}}
+\bibcite{sarabamoun2025specialcharacteradversarialattacksopensource}{{78}{2025}{{Sarabamoun}}{{}}}
+\bibcite{zeng2024johnnypersuadellmsjailbreak}{{79}{2024}{{Zeng et~al.}}{{Zeng, Lin, Zhang, Yang, Jia, and Shi}}}
+\bibcite{guyer2019speech}{{80}{2019}{{Guyer et~al.}}{{Guyer, Fabrigar, and Vaughan-Johnston}}}
+\bibcite{guyer2025vocal}{{81}{2025}{{Guyer et~al.}}{{Guyer, Vaughan-Johnston, Fabrigar, Paredes, Bri{\~n}ol, and Shen}}}
+\bibcite{vaughan2021role}{{82}{2021}{{Vaughan-Johnston et~al.}}{{Vaughan-Johnston, Guyer, Fabrigar, and Shen}}}
+\bibcite{wang2024footdoorunderstandinglarge}{{83}{2024{}}{{Wang et~al.}}{{Wang, Xie, Wang, Wang, Gui, Ma, and Chen}}}
+\bibcite{yang2024jigsawpuzzlessplittingharmful}{{84}{2024}{{Yang et~al.}}{{Yang, Qu, Shareghi, and Haffari}}}
+\bibcite{ren2025llms}{{85}{2025}{{Ren et~al.}}{{Ren, Li, Liu, Xie, Lu, Qiao, Sha, Yan, Ma, and Shao}}}
+\bibcite{jiang-etal-2025-red}{{86}{2025}{{Jiang et~al.}}{{Jiang, Aggarwal, Laud, Munir, Pujara, and Mukherjee}}}
+\bibcite{winner2017artifacts}{{87}{2017}{{Winner}}{{}}}
+\bibcite{zhao2017men}{{88}{2017}{{Zhao et~al.}}{{Zhao, Wang, Yatskar, Ordonez, and Chang}}}
+\bibcite{abid2021large}{{89}{2021}{{Abid et~al.}}{{Abid, Farooqi, and Zou}}}
+\bibcite{liu2024deepseek}{{90}{2024{}}{{Liu et~al.}}{{Liu, Feng, Xue, Wang, Wu, Lu, Zhao, Deng, Zhang, Ruan, et~al.}}}
+\bibstyle{unsrtnat}
+\ttl@writefile{ptc}{\ttl@starttoc{appendix@1}}
+\citation{xu2025qwen3,zhang2025mimo,ding2025kimi}
+\citation{guyer2021paralinguistic,van2020voice}
+\citation{wang2025mmsu}
+\citation{kumar2025mmau}
+\citation{chen2024voicebenchbenchmarkingllmbasedvoice}
+\citation{li2026wavbenchbenchmarkingreasoningcolloquialism}
+\citation{li2025audiotrust}
+\citation{lee2025ahelm}
+\citation{sun2023safety,zhang2024safetybenchevaluatingsafetylarge,xie2025sorrybenchsystematicallyevaluatinglarge,hui2025tridentbenchmarkingllmsafety,mou2024sgbenchevaluatingllmsafety,wang-etal-2024-answer,markov2023holisticapproachundesiredcontent}
+\citation{andriushchenko2025jailbreakingleadingsafetyalignedllms,zou2023universaltransferableadversarialattacks,wallace2024instructionhierarchytrainingllms}
+\citation{yang2025multi,russinovich2025great,li2024deepinceptionhypnotizelargelanguage,wang2025mrjagenteffectivejailbreakagent}
+\citation{yu2026now}
+\citation{roh2025multilingualmultiaccentjailbreakingaudio}
+\citation{yang-etal-2025-withstand}
+\citation{peng2025jalmbench}
+\citation{yang-etal-2025-audio}
+\citation{202511.0088,xie2025toolsafety,chen2024towards}
+\citation{liu2024mmsafetybenchbenchmarksafetyevaluation}
+\citation{gu2024mllmguardmultidimensionalsafetyevaluation}
+\citation{pan2025omnisafetybenchbenchmarksafetyevaluation}
+\citation{yan2025outsafebenchbenchmarkmultimodaloffensive}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Related Works}{16}{appendix.A}\protected@file@percent }
+\newlabel{sec:related_works}{{A}{16}{Related Works}{appendix.A}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.1}Audio/Speech Language Models and Spoken Benchmarks}{16}{subsection.A.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.2}Safety Evaluation: From Refusal to Jailbreak and Agentic Risks}{16}{subsection.A.2}\protected@file@percent }
+\citation{nangia2020crows,nadeem2020stereoset,blodgett2020language,gallegos2023bias}
+\citation{lin2024listenspeakfairlystudy}
+\citation{lin2024spokenstereosetevaluatingsocial}
+\citation{satish2025voice,wu2025evaluatingbiasspokendialogue}
+\citation{rai2025asrfairbenchmeasuringbenchmarkingequity,kuan-lee-2025-gender}
+\citation{wang2026voxprivacy}
+\citation{wang2026hearsay}
+\citation{ngong-etal-2025-protecting}
+\citation{kumar2025mmau,chen2024voicebenchbenchmarkingllmbasedvoice,li2026wavbenchbenchmarkingreasoningcolloquialism}
+\citation{yu2026now,peng2025jalmbench,roh2025multilingualmultiaccentjailbreakingaudio,yang-etal-2025-audio}
+\citation{zhang2024multitrust,liu2024mmsafetybenchbenchmarksafetyevaluation,pan2025omnisafetybenchbenchmarksafetyevaluation}
+\citation{li2025audiotrust}
+\citation{wang2024decodingtrustcomprehensiveassessmenttrustworthiness}
+\citation{huang2024trustllmtrustworthinesslargelanguage}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.3}Fairness and Social Bias in SLMs}{17}{subsection.A.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.4}Privacy Risks in Conversational and Voice Interfaces}{17}{subsection.A.4}\protected@file@percent }
+\citation{du2025cosyvoice}
+\citation{10089511}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.5}Summary: Positioning XXX}{18}{subsection.A.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {B}Dataset Construction}{18}{appendix.B}\protected@file@percent }
+\newlabel{sec:dataset_construction}{{B}{18}{Dataset Construction}{appendix.B}{}}
+\@writefile{toc}{\contentsline {paragraph}{Stage 1: Data acquisition and text preparation.}{18}{section*.17}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Stage 2: Prompt-audio pool and speech synthesis.}{18}{section*.18}\protected@file@percent }
+\citation{radford2022whisper}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Overview of our dataset-construction pipeline. We combine adapted benchmarks, LLM-assisted generation, and off-the-shelf resources; clean and revise candidate texts for spoken use; synthesize or record audio with a curated prompt-audio pool; inject Tier~2 acoustic cues; filter by intelligibility; and finally release Tier~1 and Tier~2 evaluation sets with human verification.}}{19}{figure.caption.16}\protected@file@percent }
+\newlabel{fig:data_construction_pipeline}{{5}{19}{Overview of our dataset-construction pipeline. We combine adapted benchmarks, LLM-assisted generation, and off-the-shelf resources; clean and revise candidate texts for spoken use; synthesize or record audio with a curated prompt-audio pool; inject Tier~2 acoustic cues; filter by intelligibility; and finally release Tier~1 and Tier~2 evaluation sets with human verification}{figure.caption.16}{}}
+\@writefile{toc}{\contentsline {paragraph}{Stage 3: Tier-specific output construction.}{19}{section*.20}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Stage 4: Quality filtering and human verification.}{19}{section*.21}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {C}Additional Details of Safety Evaluation}{19}{appendix.C}\protected@file@percent }
+\newlabel{sec:safety_appendix}{{C}{19}{Additional Details of Safety Evaluation}{appendix.C}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Composition of the prompt-audio pool used to condition CosyVoice3 synthesis. Counts are reported within each attribute family. ``Shared'' denotes non-language-specific background source clips used in the diverse pool; these sources are randomly mixed into 30\% of diverse outputs at 40\% of foreground speech volume. For the clean row and emotion rows, we report mean arousal estimated on the prompt audios.}}{20}{table.caption.19}\protected@file@percent }
+\newlabel{tab:prompt_audio_pool}{{5}{20}{Composition of the prompt-audio pool used to condition CosyVoice3 synthesis. Counts are reported within each attribute family. ``Shared'' denotes non-language-specific background source clips used in the diverse pool; these sources are randomly mixed into 30\% of diverse outputs at 40\% of foreground speech volume. For the clean row and emotion rows, we report mean arousal estimated on the prompt audios}{table.caption.19}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Tier~1 safety overview (content-centric). We follow a top-down taxonomy that separates \textbf  {what} the user asks (harmful content), \textbf  {how} adversaries try to bypass refusals (jailbreak), and \textbf  {what} an agent can do with tools (agentic action safety).}}{20}{table.caption.22}\protected@file@percent }
+\newlabel{tab:safety_tier1_overview}{{6}{20}{Tier~1 safety overview (content-centric). We follow a top-down taxonomy that separates \textbf {what} the user asks (harmful content), \textbf {how} adversaries try to bypass refusals (jailbreak), and \textbf {what} an agent can do with tools (agentic action safety)}{table.caption.22}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {C.1}Tier~1 Evaluation Rubric and Metrics}{21}{subsection.C.1}\protected@file@percent }
+\newlabel{sec:safety_tier1_metrics}{{C.1}{21}{Tier~1 Evaluation Rubric and Metrics}{subsection.C.1}{}}
+\@writefile{toc}{\contentsline {paragraph}{Metrics.}{21}{section*.23}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Failure rubric (generative).}{21}{section*.24}\protected@file@percent }
+\citation{sun2023safety,gong2025figstep,zhang2024safetybenchevaluatingsafetylarge,xie2025sorrybenchsystematicallyevaluatinglarge,hui2025tridentbenchmarkingllmsafety,mou2024sgbenchevaluatingllmsafety,wang-etal-2024-answer,markov2023holisticapproachundesiredcontent}
+\citation{gong2025figstep}
+\citation{xie2025sorrybenchsystematicallyevaluatinglarge}
+\citation{zhang2024safetybenchevaluatingsafetylarge}
+\citation{sun2023safety}
+\citation{markov2023holisticapproachundesiredcontent}
+\citation{xie2025sorrybenchsystematicallyevaluatinglarge}
+\citation{gong2025figstep}
+\citation{markov2023holisticapproachundesiredcontent}
+\citation{mou2024sgbenchevaluatingllmsafety}
+\citation{zhang2024safetybenchevaluatingsafetylarge}
+\citation{hui2025tridentbenchmarkingllmsafety}
+\citation{mou2024sgbenchevaluatingllmsafety}
+\citation{wang-etal-2024-answer}
+\citation{zhang2024safetybenchevaluatingsafetylarge}
+\@writefile{toc}{\contentsline {paragraph}{Task formats.}{22}{section*.25}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {C.2}Harmful Content}{22}{subsection.C.2}\protected@file@percent }
+\newlabel{sec:safety_tier1_dimension}{{C.2}{22}{Harmful Content}{subsection.C.2}{}}
+\@writefile{toc}{\contentsline {paragraph}{Motivation.}{22}{section*.26}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Taxonomy (three super-categories, 20 sub-categories).}{22}{section*.27}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{How the three super-categories differ.}{22}{section*.29}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Data sources and taxonomy grounding.}{22}{section*.30}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Detailed Evaluation Results.}{22}{section*.32}\protected@file@percent }
+\citation{andriushchenko2025jailbreakingleadingsafetyalignedllms,zou2023universaltransferableadversarialattacks}
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Tier~1 harmful-content taxonomy. Descriptions focus on what the evaluation \emph  {forbids} the model from facilitating, without enumerating operational details.}}{23}{table.caption.28}\protected@file@percent }
+\newlabel{tab:safety_tier1_harm_taxonomy}{{7}{23}{Tier~1 harmful-content taxonomy. Descriptions focus on what the evaluation \emph {forbids} the model from facilitating, without enumerating operational details}{table.caption.28}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {C.3}Jailbreak: Prompt-based Safety Evasion}{23}{subsection.C.3}\protected@file@percent }
+\newlabel{sec:safety_tier1_jailbreak}{{C.3}{23}{Jailbreak: Prompt-based Safety Evasion}{subsection.C.3}{}}
+\@writefile{toc}{\contentsline {paragraph}{Motivation.}{23}{section*.34}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Mapping of Tier~1 harmful-content super-categories to representative safety benchmarks and taxonomies. This grounding ensures our taxonomy comprehensively covers both established textual harms and domain-regulated risks.}}{24}{table.caption.31}\protected@file@percent }
+\newlabel{tab:safety_taxonomy_sources}{{8}{24}{Mapping of Tier~1 harmful-content super-categories to representative safety benchmarks and taxonomies. This grounding ensures our taxonomy comprehensively covers both established textual harms and domain-regulated risks}{table.caption.31}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Harmful content (No Jailbreak) evaluation results across text and audio modalities, reported as \textit  {EN\,/\,ZH}. We compare Refusal-to-Answer (RtA $\uparrow $, \%) and Toxicity Score ($\downarrow \times 100$) for pure text, clean audio, and diverse audio. \raisebox  {0.15ex}{\textcolor {fairHdr}{\rule  {0.85ex}{0.85ex}}}\,Text columns evaluate the pure-text modality. \raisebox  {0.15ex}{\textcolor {safetyHdr}{\rule  {0.85ex}{0.85ex}}}\,Audio columns evaluate clean and diverse audio modalities. \textbf  {Bold}: column best per language; ``---'': text input not supported; $^\dagger $: thinking variant.}}{24}{table.caption.33}\protected@file@percent }
+\newlabel{tab:safety_high_risk_detailed}{{9}{24}{Harmful content (No Jailbreak) evaluation results across text and audio modalities, reported as \textit {EN\,/\,ZH}. We compare Refusal-to-Answer (RtA $\uparrow $, \%) and Toxicity Score ($\downarrow \times 100$) for pure text, clean audio, and diverse audio. \raisebox {0.15ex}{\textcolor {fairHdr}{\rule {0.85ex}{0.85ex}}}\,Text columns evaluate the pure-text modality. \raisebox {0.15ex}{\textcolor {safetyHdr}{\rule {0.85ex}{0.85ex}}}\,Audio columns evaluate clean and diverse audio modalities. \textbf {Bold}: column best per language; ``---'': text input not supported; $^\dagger $: thinking variant}{table.caption.33}{}}
+\citation{shah2023scalabletransferableblackboxjailbreaks}
+\citation{li2024deepinceptionhypnotizelargelanguage}
+\citation{zhang2024psysafecomprehensiveframeworkpsychologicalbased}
+\citation{zhang2024wordgameefficienteffective}
+\citation{sarabamoun2025specialcharacteradversarialattacksopensource}
+\citation{yang2025multi}
+\citation{andriushchenko2025jailbreakingleadingsafetyalignedllms}
+\citation{wallace2024instructionhierarchytrainingllms}
+\citation{202511.0088}
+\citation{202511.0088}
+\citation{zeng2024johnnypersuadellmsjailbreak}
+\citation{yu2026now}
+\citation{peng2025jalmbench}
+\citation{guyer2019speech,guyer2021paralinguistic,guyer2025vocal,vaughan2021role,van2020voice}
+\citation{yu2026now}
+\citation{yang2025multi,russinovich2025great}
+\citation{changbalancing,202511.0088}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {C.3.1}Single-turn jailbreak}{25}{subsubsection.C.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Taxonomy.}{25}{section*.35}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces Single-turn jailbreak taxonomy used in Tier~1.}}{25}{table.caption.36}\protected@file@percent }
+\newlabel{tab:safety_singleturn_taxonomy}{{10}{25}{Single-turn jailbreak taxonomy used in Tier~1}{table.caption.36}{}}
+\@writefile{toc}{\contentsline {paragraph}{From textual persuasion to acoustic manipulation.}{25}{section*.37}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {C.3.2}Multi-turn jailbreak}{25}{subsubsection.C.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Why multi-turn is different.}{25}{section*.38}\protected@file@percent }
+\citation{russinovich2025great,wang2024footdoorunderstandinglarge,yang2025multi}
+\citation{yang2024jigsawpuzzlessplittingharmful,wang2025mrjagenteffectivejailbreakagent}
+\citation{wu2025analogy}
+\citation{ren2025llms,jiang-etal-2025-red}
+\citation{changbalancing,202511.0088}
+\citation{russinovich2025great}
+\citation{wang2024footdoorunderstandinglarge}
+\citation{yang2025multi}
+\citation{yang2024jigsawpuzzlessplittingharmful}
+\citation{wang2025mrjagenteffectivejailbreakagent}
+\citation{202511.0088}
+\citation{wu2025analogy}
+\citation{ren2025llms}
+\citation{jiang-etal-2025-red}
+\citation{202511.0088}
+\citation{zhang2024psysafecomprehensiveframeworkpsychologicalbased}
+\citation{202511.0088}
+\citation{changbalancing,202511.0088}
+\citation{202511.0088}
+\@writefile{lot}{\contentsline {table}{\numberline {11}{\ignorespaces Multi-turn jailbreak methodology taxonomy (Tier~1).}}{26}{table.caption.42}\protected@file@percent }
+\newlabel{tab:safety_multiturn_method}{{11}{26}{Multi-turn jailbreak methodology taxonomy (Tier~1)}{table.caption.42}{}}
+\@writefile{toc}{\contentsline {paragraph}{A two-axis taxonomy: methodology $\times $ scenario cloak.}{26}{section*.39}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Methodology axis (high-level).}{26}{section*.40}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Scenario cloak axis.}{26}{section*.41}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {C.3.3}Detailed Jailbreak Evaluation Results}{26}{subsubsection.C.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Key patterns.}{26}{section*.45}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {12}{\ignorespaces Multi-turn scenario cloaks (benign covers) that often accompany methodology-driven attacks.}}{27}{table.caption.43}\protected@file@percent }
+\newlabel{tab:safety_multiturn_scenario}{{12}{27}{Multi-turn scenario cloaks (benign covers) that often accompany methodology-driven attacks}{table.caption.43}{}}
+\@writefile{toc}{\contentsline {paragraph}{Impact of acoustic disturbance.}{27}{section*.46}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Discriminative safety classification.}{27}{table.caption.51}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Discriminative vs.\ generative mismatch.}{27}{section*.52}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {13}{\ignorespaces  Jailbreak evaluation results (RtA $\uparrow $, \%; Toxicity Score $\downarrow \times 100$) across No Jailbreak, Single-turn Jailbreak, and Multi-turn Jailbreak settings, reported as \textit  {EN\,/\,ZH}. \raisebox  {0.15ex}{\textcolor {fairHdr}{\rule  {0.85ex}{0.85ex}}}\,Text columns evaluate the pure-text modality. \raisebox  {0.15ex}{\textcolor {safetyHdr}{\rule  {0.85ex}{0.85ex}}}\,Audio columns evaluate the audio modality. \textbf  {Bold}: column best per language; ``---'': text input not supported; $^\dagger $: thinking variant. }}{28}{table.caption.48}\protected@file@percent }
+\newlabel{tab:safety_jailbreak_detailed}{{13}{28}{Jailbreak evaluation results (RtA $\uparrow $, \%; Toxicity Score $\downarrow \times 100$) across No Jailbreak, Single-turn Jailbreak, and Multi-turn Jailbreak settings, reported as \textit {EN\,/\,ZH}. \raisebox {0.15ex}{\textcolor {fairHdr}{\rule {0.85ex}{0.85ex}}}\,Text columns evaluate the pure-text modality. \raisebox {0.15ex}{\textcolor {safetyHdr}{\rule {0.85ex}{0.85ex}}}\,Audio columns evaluate the audio modality. \textbf {Bold}: column best per language; ``---'': text input not supported; $^\dagger $: thinking variant}{table.caption.48}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {14}{\ignorespaces  Jailbreak Attack Success Rate (ASR $\downarrow $, \%) across Single-turn and Multi-turn scenarios, reported as \textit  {EN\,/\,ZH}. \raisebox  {0.15ex}{\textcolor {fairHdr}{\rule  {0.85ex}{0.85ex}}}\,Text columns evaluate the pure-text modality. \raisebox  {0.15ex}{\textcolor {safetyHdr}{\rule  {0.85ex}{0.85ex}}}\,Audio columns evaluate the audio modality. \textbf  {Bold}: column best (lowest ASR) per language; ``---'': text input not supported; $^\dagger $: thinking variant. }}{28}{table.caption.49}\protected@file@percent }
+\newlabel{tab:safety_jailbreak_asr}{{14}{28}{Jailbreak Attack Success Rate (ASR $\downarrow $, \%) across Single-turn and Multi-turn scenarios, reported as \textit {EN\,/\,ZH}. \raisebox {0.15ex}{\textcolor {fairHdr}{\rule {0.85ex}{0.85ex}}}\,Text columns evaluate the pure-text modality. \raisebox {0.15ex}{\textcolor {safetyHdr}{\rule {0.85ex}{0.85ex}}}\,Audio columns evaluate the audio modality. \textbf {Bold}: column best (lowest ASR) per language; ``---'': text input not supported; $^\dagger $: thinking variant}{table.caption.49}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {15}{\ignorespaces Discriminative unsafe-detection accuracy (Acc $\uparrow $, \%), reported as \textit  {EN\,/\,ZH}. \raisebox  {0.15ex}{\textcolor {fairHdr}{\rule  {0.85ex}{0.85ex}}}\,Text columns evaluate the pure-text modality. \raisebox  {0.15ex}{\textcolor {safetyHdr}{\rule  {0.85ex}{0.85ex}}}\,Audio columns evaluate clean/diverse audio (No Jailbreak) and jailbreak audio (Single-turn). Since all discriminative samples are unsafe by construction, Acc corresponds to the recall of predicting \texttt  {Yes} among non-skipped cases. ``Skipped'' outputs (non-parsable \texttt  {Yes/No} or API/pipeline errors) are excluded from the accuracy denominator. \textbf  {Bold}: column best per language; ``---'': modality not supported; $^\dagger $: thinking variant.}}{28}{table.caption.51}\protected@file@percent }
+\newlabel{tab:safety_discriminative_detailed}{{15}{28}{Discriminative unsafe-detection accuracy (Acc $\uparrow $, \%), reported as \textit {EN\,/\,ZH}. \raisebox {0.15ex}{\textcolor {fairHdr}{\rule {0.85ex}{0.85ex}}}\,Text columns evaluate the pure-text modality. \raisebox {0.15ex}{\textcolor {safetyHdr}{\rule {0.85ex}{0.85ex}}}\,Audio columns evaluate clean/diverse audio (No Jailbreak) and jailbreak audio (Single-turn). Since all discriminative samples are unsafe by construction, Acc corresponds to the recall of predicting \texttt {Yes} among non-skipped cases. ``Skipped'' outputs (non-parsable \texttt {Yes/No} or API/pipeline errors) are excluded from the accuracy denominator. \textbf {Bold}: column best per language; ``---'': modality not supported; $^\dagger $: thinking variant}{table.caption.51}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Radar breakdown of Tier~1 safety outcomes by harmful-content class and jailbreak type. We overlay (a) \textbf  {no-jailbreak} results for the three content super-categories (A: Crimes \& Physical Harm; B: Social Toxicity \& Norm Violations; C: Hazardous Advice \& Misinformation) and (b) \textbf  {single-turn jailbreak} results for four attack families (Obfuscation, Policy Override, Reverse Inducement, Role-play). Each spoke corresponds to a model variant; each polyline is the category-wise average across samples. Higher RtA is safer; lower Toxicity is safer.}}{29}{figure.caption.44}\protected@file@percent }
+\newlabel{fig:safety_radar_breakdown}{{6}{29}{Radar breakdown of Tier~1 safety outcomes by harmful-content class and jailbreak type. We overlay (a) \textbf {no-jailbreak} results for the three content super-categories (A: Crimes \& Physical Harm; B: Social Toxicity \& Norm Violations; C: Hazardous Advice \& Misinformation) and (b) \textbf {single-turn jailbreak} results for four attack families (Obfuscation, Policy Override, Reverse Inducement, Role-play). Each spoke corresponds to a model variant; each polyline is the category-wise average across samples. Higher RtA is safer; lower Toxicity is safer}{figure.caption.44}{}}
+\citation{xie2025toolsafety,chen2024towards}
+\citation{202511.0088}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Impact of acoustic disturbance on single-turn jailbreak robustness. We report the Refusal-to-Answer (RtA, \%) for each model with and without acoustic disturbances (e.g., emotional pressure and paralinguistic variations). Higher RtA indicates better safety robustness. Across most models, acoustic disturbances lead to a noticeable drop in RtA in both English and Chinese, demonstrating that paralinguistic manipulation can effectively bypass existing safety guardrails.}}{30}{figure.caption.47}\protected@file@percent }
+\newlabel{fig:safety_acoustic_disturbance}{{7}{30}{Impact of acoustic disturbance on single-turn jailbreak robustness. We report the Refusal-to-Answer (RtA, \%) for each model with and without acoustic disturbances (e.g., emotional pressure and paralinguistic variations). Higher RtA indicates better safety robustness. Across most models, acoustic disturbances lead to a noticeable drop in RtA in both English and Chinese, demonstrating that paralinguistic manipulation can effectively bypass existing safety guardrails}{figure.caption.47}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {C.4}SLM Agent Action Safety}{30}{subsection.C.4}\protected@file@percent }
+\newlabel{sec:safety_tier1_agent}{{C.4}{30}{SLM Agent Action Safety}{subsection.C.4}{}}
+\@writefile{toc}{\contentsline {paragraph}{Motivation.}{30}{section*.53}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Taxonomy: direct vs.\ indirect harm.}{30}{section*.54}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {16}{\ignorespaces Tier~1 agentic action safety taxonomy.}}{30}{table.caption.55}\protected@file@percent }
+\newlabel{tab:safety_agentic_taxonomy}{{16}{30}{Tier~1 agentic action safety taxonomy}{table.caption.55}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {D}Additional Details of Fairness Evaluation}{30}{appendix.D}\protected@file@percent }
+\newlabel{sec:fairness_appendix}{{D}{30}{Additional Details of Fairness Evaluation}{appendix.D}{}}
+\citation{winner2017artifacts}
+\citation{weidinger2021ethical}
+\citation{blodgett2020language}
+\citation{nadeem2020stereoset}
+\citation{zhao2017men,fraser2024examining}
+\@writefile{lot}{\contentsline {table}{\numberline {17}{\ignorespaces Examples of Direct and Indirect Harm in Agentic Action Safety. In \textbf  {Direct Harm}, the user's intent is explicitly malicious. In \textbf  {Indirect Harm}, the user's intent is benign, but the tool return contains toxic or manipulative content (prompt injection) that an unsafe agent improperly propagates.}}{31}{table.caption.56}\protected@file@percent }
+\newlabel{tab:safety_agentic_examples}{{17}{31}{Examples of Direct and Indirect Harm in Agentic Action Safety. In \textbf {Direct Harm}, the user's intent is explicitly malicious. In \textbf {Indirect Harm}, the user's intent is benign, but the tool return contains toxic or manipulative content (prompt injection) that an unsafe agent improperly propagates}{table.caption.56}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {D.1}Fairness Dimensions, Definitions, and Motivation}{31}{subsection.D.1}\protected@file@percent }
+\newlabel{sec:fairness_appendix_taxonomy}{{D.1}{31}{Fairness Dimensions, Definitions, and Motivation}{subsection.D.1}{}}
+\@writefile{toc}{\contentsline {paragraph}{Social Stereotypes.}{31}{section*.57}\protected@file@percent }
+\citation{abid2021large}
+\citation{gallegos2023bias}
+\citation{liu2024deepseek}
+\citation{du2025cosyvoice}
+\citation{radford2022whisper}
+\@writefile{toc}{\contentsline {paragraph}{Exclusionary Norms.}{32}{section*.58}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {D.2}Dataset Construction and Quality Control}{32}{subsection.D.2}\protected@file@percent }
+\newlabel{sec:fairness_appendix_data}{{D.2}{32}{Dataset Construction and Quality Control}{subsection.D.2}{}}
+\@writefile{toc}{\contentsline {paragraph}{Stage 1: LLM Generation.}{32}{section*.59}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Stage 2: Dual Filtering (LLM + Human).}{32}{section*.60}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Stage 3: Audio Synthesis (CosyVoice3).}{32}{section*.61}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Stage 4: ASR-based Quality Assurance.}{32}{section*.62}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {D.3}LLM-Judge Rubric Prompt for FAIR/UNFAIR/SKIP}{33}{subsection.D.3}\protected@file@percent }
+\newlabel{sec:fairness_appendix_judge_prompt}{{D.3}{33}{LLM-Judge Rubric Prompt for FAIR/UNFAIR/SKIP}{subsection.D.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {D.4}Full Fairness Evaluation Results}{33}{subsection.D.4}\protected@file@percent }
+\newlabel{sec:fairness_appendix_full_results}{{D.4}{33}{Full Fairness Evaluation Results}{subsection.D.4}{}}
+\@writefile{toc}{\contentsline {paragraph}{Analysis of Acoustic Robustness (Clean vs.\ Diverse).}{33}{section*.63}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {18}{\ignorespaces Full Fairness evaluation results (Fair Rate $\uparrow $, \%) across four stereotype dimensions, reported as \textit  {EN\,/\,ZH}. \raisebox  {0.15ex}{\textcolor {fairHdr}{\rule  {0.85ex}{0.85ex}}}\,Tier\,1 columns evaluate single-turn fairness across three modalities (Text, Clean audio, Diverse audio). \raisebox  {0.15ex}{\textcolor {safetyHdr}{\rule  {0.85ex}{0.85ex}}}\,\textbf  {Tier\,2} columns probe acoustic-contexted fairness. \textbf  {Bold}: column best per language; ``---'': text input not supported; $^\dagger $: thinking variant.}}{34}{table.caption.64}\protected@file@percent }
+\newlabel{tab:fairness_full}{{18}{34}{Full Fairness evaluation results (Fair Rate $\uparrow $, \%) across four stereotype dimensions, reported as \textit {EN\,/\,ZH}. \raisebox {0.15ex}{\textcolor {fairHdr}{\rule {0.85ex}{0.85ex}}}\,Tier\,1 columns evaluate single-turn fairness across three modalities (Text, Clean audio, Diverse audio). \raisebox {0.15ex}{\textcolor {safetyHdr}{\rule {0.85ex}{0.85ex}}}\,\textbf {Tier\,2} columns probe acoustic-contexted fairness. \textbf {Bold}: column best per language; ``---'': text input not supported; $^\dagger $: thinking variant}{table.caption.64}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {D.5}Binomial Test and $p$-value Computation for Directional Bias}{34}{subsection.D.5}\protected@file@percent }
+\newlabel{sec:fairness_appendix_pvalue}{{D.5}{34}{Binomial Test and $p$-value Computation for Directional Bias}{subsection.D.5}{}}
+\@writefile{toc}{\contentsline {paragraph}{Motivation.}{34}{section*.65}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Calculation.}{34}{section*.66}\protected@file@percent }
+\newlabel{eq:fairness_binom_p}{{2}{34}{Calculation}{equation.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {D.6}Qualitative Examples}{34}{subsection.D.6}\protected@file@percent }
+\newlabel{sec:fairness_appendix_examples}{{D.6}{34}{Qualitative Examples}{subsection.D.6}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {19}{\ignorespaces Net Bias Score (\%) and statistical significance across five stereotype dimensions, reported as \textit  {EN\,/\,ZH}. Positive values indicate alignment with societal stereotypes (e.g., preference for natives, males in male-dominated jobs), while negative values indicate counter-stereotype bias. Significance levels from two-sided binomial tests: $^\ast p < 0.05$, $^\dagger p < 0.01$, $^\ddagger p < 0.001$. \textbf  {Bold} indicates statistically significant bias.}}{35}{table.caption.67}\protected@file@percent }
+\newlabel{tab:bias_scores}{{19}{35}{Net Bias Score (\%) and statistical significance across five stereotype dimensions, reported as \textit {EN\,/\,ZH}. Positive values indicate alignment with societal stereotypes (e.g., preference for natives, males in male-dominated jobs), while negative values indicate counter-stereotype bias. Significance levels from two-sided binomial tests: $^\ast p < 0.05$, $^\dagger p < 0.01$, $^\ddagger p < 0.001$. \textbf {Bold} indicates statistically significant bias}{table.caption.67}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {20}{\ignorespaces Tier~1 qualitative examples. In each probe, the candidates are identical except for the explicit descriptor; therefore, selecting one candidate is logically unjustified and marked as \textsc  {UNFAIR}. We quote the probe text and example model outputs verbatim.}}{35}{table.caption.68}\protected@file@percent }
+\newlabel{tab:fairness_examples_tier1_en}{{20}{35}{Tier~1 qualitative examples. In each probe, the candidates are identical except for the explicit descriptor; therefore, selecting one candidate is logically unjustified and marked as \textsc {UNFAIR}. We quote the probe text and example model outputs verbatim}{table.caption.68}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {E}Additional Details of Privacy Evaluation}{35}{appendix.E}\protected@file@percent }
+\newlabel{sec:privacy_appendix}{{E}{35}{Additional Details of Privacy Evaluation}{appendix.E}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {21}{\ignorespaces Tier~1 qualitative examples in Chinese. The probe remains a minimal pair; any preference based on the group descriptor is \textsc  {UNFAIR}.}}{36}{table.caption.69}\protected@file@percent }
+\newlabel{tab:fairness_examples_tier1_zh}{{21}{36}{Tier~1 qualitative examples in Chinese. The probe remains a minimal pair; any preference based on the group descriptor is \textsc {UNFAIR}}{table.caption.69}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {22}{\ignorespaces Tier~2 qualitative examples illustrating paralinguistic and background sounds bias. The text script is identical for both speakers. Each probe is evaluated twice by swapping the acoustic traits. If a model consistently prefers a specific acoustic profile (e.g., always choosing the neutral voice) regardless of presentation order, it demonstrates systemic bias driven by voice or environment, rather than positional artifacts.}}{37}{table.caption.70}\protected@file@percent }
+\newlabel{tab:fairness_examples_tier2}{{22}{37}{Tier~2 qualitative examples illustrating paralinguistic and background sounds bias. The text script is identical for both speakers. Each probe is evaluated twice by swapping the acoustic traits. If a model consistently prefers a specific acoustic profile (e.g., always choosing the neutral voice) regardless of presentation order, it demonstrates systemic bias driven by voice or environment, rather than positional artifacts}{table.caption.70}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {23}{\ignorespaces Tier~1 privacy taxonomy and evaluation targets. ``Hard'' privacy concerns \emph  {structured, copyable} identifiers and secrets, while ``soft'' privacy is \emph  {context-dependent} and socially sensitive.}}{38}{table.caption.71}\protected@file@percent }
+\newlabel{tab:privacy_tier1_overview}{{23}{38}{Tier~1 privacy taxonomy and evaluation targets. ``Hard'' privacy concerns \emph {structured, copyable} identifiers and secrets, while ``soft'' privacy is \emph {context-dependent} and socially sensitive}{table.caption.71}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {E.1}Dimension 1: Structured PII \& Credentials (Hard Privacy)}{38}{subsection.E.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Definition and rationale.}{38}{section*.72}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Field taxonomy.}{38}{section*.73}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Scenario design and data construction.}{38}{section*.76}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Prompt scenarios.}{38}{section*.77}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {24}{\ignorespaces Taxonomy for structured PII \& credentials (hard privacy).}}{39}{table.caption.74}\protected@file@percent }
+\newlabel{tab:hard_privacy_fields}{{24}{39}{Taxonomy for structured PII \& credentials (hard privacy)}{table.caption.74}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {25}{\ignorespaces Prompt scenario templates for structured PII \& credentials.}}{39}{table.caption.78}\protected@file@percent }
+\newlabel{tab:hard_privacy_scenarios}{{25}{39}{Prompt scenario templates for structured PII \& credentials}{table.caption.78}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {E.2}Dimension 2: Contextual \& Social Privacy (Soft Privacy)}{40}{subsection.E.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Definition and rationale.}{40}{section*.79}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Category taxonomy.}{40}{section*.80}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Data construction (semantic scripts).}{40}{section*.81}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Scenario taxonomy and expected behavior.}{40}{section*.82}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {E.3}Tier~1 Evaluation Rubric and Metrics}{40}{subsection.E.3}\protected@file@percent }
+\newlabel{sec:privacy_tier1_rubric}{{E.3}{40}{Tier~1 Evaluation Rubric and Metrics}{subsection.E.3}{}}
+\@writefile{toc}{\contentsline {paragraph}{Discriminative evaluation setup.}{40}{section*.84}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Generative LLM-as-judge setup.}{40}{section*.85}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {26}{\ignorespaces Scenario taxonomy for contextual \& social privacy (soft privacy). This table illustrates user intents, concrete examples, and the expected safe behavior from the model.}}{41}{table.caption.83}\protected@file@percent }
+\newlabel{tab:soft_privacy_scenarios}{{26}{41}{Scenario taxonomy for contextual \& social privacy (soft privacy). This table illustrates user intents, concrete examples, and the expected safe behavior from the model}{table.caption.83}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {E.4}Detailed Tier~1 Evaluation Results}{43}{subsection.E.4}\protected@file@percent }
+\newlabel{sec:privacy_tier1_detailed}{{E.4}{43}{Detailed Tier~1 Evaluation Results}{subsection.E.4}{}}
+\@writefile{toc}{\contentsline {paragraph}{Detailed results by language and task.}{43}{section*.86}\protected@file@percent }
+\citation{wang2026voxprivacy}
+\@writefile{lot}{\contentsline {table}{\numberline {27}{\ignorespaces Detailed Tier~1 hard/soft privacy results. We report Discriminative Accuracy (Acc $\uparrow $) and Generative Leakage (Leak $\downarrow $) / Refusal-to-Answer (RtA $\uparrow $) rates. English and Chinese results are denoted by \textcolor {entone}{teal} and \textcolor {zhtone}{orange} respectively, with the best value in each language \textbf  {bolded}. ``---'': text input not supported; $^\dagger $: thinking variant.}}{44}{table.caption.87}\protected@file@percent }
+\newlabel{tab:privacy_tier1_detailed}{{27}{44}{Detailed Tier~1 hard/soft privacy results. We report Discriminative Accuracy (Acc $\uparrow $) and Generative Leakage (Leak $\downarrow $) / Refusal-to-Answer (RtA $\uparrow $) rates. English and Chinese results are denoted by \textcolor {entone}{teal} and \textcolor {zhtone}{orange} respectively, with the best value in each language \textbf {bolded}. ``---'': text input not supported; $^\dagger $: thinking variant}{table.caption.87}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {E.5}Tier~2: Interactional Privacy (P2.2)}{44}{subsection.E.5}\protected@file@percent }
+\newlabel{sec:interactional_privacy_appendix}{{E.5}{44}{Tier~2: Interactional Privacy (P2.2)}{subsection.E.5}{}}
+\@writefile{toc}{\contentsline {paragraph}{Definition and rationale.}{44}{section*.88}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Task setup.}{44}{section*.89}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Automatic labeling and metrics.}{44}{section*.90}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Results and analysis.}{44}{section*.91}\protected@file@percent }
+\citation{wang2026hearsay}
+\citation{wang2026hearsay}
+\@writefile{lot}{\contentsline {table}{\numberline {28}{\ignorespaces Interactional privacy results. Metrics are computed on 144 paired probes per language (288 trials). Precision/Recall/F1 treat withholding secrets to an impostor speaker as the positive class. All values are in \%. \textbf  {Bold}: best per metric per language.}}{45}{table.caption.92}\protected@file@percent }
+\newlabel{tab:interactional_privacy_results}{{28}{45}{Interactional privacy results. Metrics are computed on 144 paired probes per language (288 trials). Precision/Recall/F1 treat withholding secrets to an impostor speaker as the positive class. All values are in \%. \textbf {Bold}: best per metric per language}{table.caption.92}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {E.6}Tier~2: Inferential Privacy (P2.3)}{45}{subsection.E.6}\protected@file@percent }
+\newlabel{sec:inferential_privacy_appendix}{{E.6}{45}{Tier~2: Inferential Privacy (P2.3)}{subsection.E.6}{}}
+\@writefile{toc}{\contentsline {paragraph}{Definition and rationale.}{45}{section*.93}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Why we evaluate five UGI attributes.}{45}{section*.94}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Task setup and metrics.}{45}{section*.95}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Results and analysis.}{45}{section*.96}\protected@file@percent }
+\citation{wang2026hearsay}
+\citation{wang2026hearsay}
+\@writefile{lot}{\contentsline {table}{\numberline {29}{\ignorespaces  Inferential privacy results on five UGI attributes from HearSay~\cite  {wang2026hearsay}. Values are in \%. \textbf  {RtA} (\(\uparrow \)): refusal-to-answer rate. \textbf  {ACC} (\(\downarrow \)): inference accuracy on answered (non-refusal) samples. \textbf  {Bold}: best per column. }}{46}{table.caption.97}\protected@file@percent }
+\newlabel{tab:privacy_inference_results}{{29}{46}{Inferential privacy results on five UGI attributes from HearSay~\cite {wang2026hearsay}. Values are in \%. \textbf {RtA} (\(\uparrow \)): refusal-to-answer rate. \textbf {ACC} (\(\downarrow \)): inference accuracy on answered (non-refusal) samples. \textbf {Bold}: best per column}{table.caption.97}{}}
+\ttl@finishall
+\gdef \@abspage@last{46}

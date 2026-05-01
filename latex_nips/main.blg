@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2025)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: unsrtnat.bst
+Database file #1: ref.bib
+Warning--can't use both volume and number fields in gong2025figstep
+Warning--empty journal in changbalancing
+Warning--empty year in changbalancing
+Warning--empty year in changbalancing
+Warning--empty journal in wang2024decodingtrustcomprehensiveassessmenttrustworthiness
+You've used 90 entries,
+            2481 wiz_defined-function locations,
+            977 strings with 27796 characters,
+and the built_in function-call counts, 44680 in all, are:
+= -- 3035
+> -- 3874
+< -- 30
++ -- 1398
+- -- 1202
+* -- 3934
+:= -- 7532
+add.period$ -- 277
+call.type$ -- 90
+change.case$ -- 179
+chr.to.int$ -- 74
+cite$ -- 95
+duplicate$ -- 1981
+empty$ -- 3301
+format.name$ -- 1298
+if$ -- 9203
+int.to.chr$ -- 17
+int.to.str$ -- 91
+missing$ -- 85
+newline$ -- 460
+num.names$ -- 272
+pop$ -- 880
+preamble$ -- 1
+purify$ -- 90
+quote$ -- 0
+skip$ -- 1257
+stack$ -- 0
+substring$ -- 1457
+swap$ -- 502
+text.length$ -- 25
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 627
+warning$ -- 5
+while$ -- 274
+width$ -- 0
+write$ -- 1134
+(There were 5 warnings)
